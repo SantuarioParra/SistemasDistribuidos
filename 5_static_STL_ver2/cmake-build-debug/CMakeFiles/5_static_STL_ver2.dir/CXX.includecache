@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Fecha.cpp
+Fecha.h
+/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Fecha.h
+iostream
+-
+
+/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Fecha.h
+
+/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/main.cpp
+iostream
+-
+Fecha.h
+/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Fecha.h
+
