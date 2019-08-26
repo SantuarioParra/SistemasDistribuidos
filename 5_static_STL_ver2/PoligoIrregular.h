@@ -5,8 +5,24 @@
 #ifndef INC_5_STATIC_STL_VER2_POLIGOIRREGULAR_H
 #define INC_5_STATIC_STL_VER2_POLIGOIRREGULAR_H
 
-class PoligonoIrreg{
+#include <vector>
+#include "Coordenada.h"
+
+using namespace std;
+
+class PoligonoIrreg {
 public:
+    void addVertice(Coordenada vertice);
+    void addPoligono(Coordenada vertice);
+
+    void printVertice();
+
+    static int getVecesMuestF();
+
+private:
+    //vector<Coordenada> Poligono;
+    vector<Coordenada> Poligono;
+    static int vecesMuestF;
 
 };
 

@@ -1,17 +1,28 @@
 #include <iostream>
 #include "Fecha.h"
+#include "PoligoIrregular.h"
+#include <cmath>
 using namespace std;
 
 int main() {
-    Fecha a, b, c,d(21, 9, 1973);
-    b.inicializaFecha(17, 6, 2019);
-    a.muestraFecha();
-    cout << "Se ha mandado llamar muestraFecha() " << a.getVecesMuestF() << " veces\n";
-    b.muestraFecha();
-    cout << "Se ha mandado llamar muestraFecha() " << b.getVecesMuestF() << " veces\n";
-    c.muestraFecha();
-    cout << "Se ha mandado llamar muestraFecha() " << c.getVecesMuestF() << " veces\n";
-    a.convierte();
-    b.leapyr();
-    b.leapyr2();
+    srand(time(NULL));
+    PoligonoIrreg a, b;
+
+    vector<PoligonoIrreg> AA;
+    AA.reserve(1000);
+
+    for (int i = 0; i < 100; ++i) {
+        Coordenada xy (rand()%100, rand()%100);
+        a.addVertice(xy);
+    }
+    a.printVertice();
+
+    for (int i = 0; i < 10; ++i) {
+        Coordenada xy (rand()%100, rand()%100);
+        b.addVertice(xy);
+    }
+    b.printVertice();
+
+
+    cout<<"PoligonosCreados: "<<a.getVecesMuestF()<<endl;
 }
