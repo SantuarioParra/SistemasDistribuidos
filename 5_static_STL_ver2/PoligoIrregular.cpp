@@ -21,8 +21,8 @@ void PoligonoIrreg::printVertice() {
 
 }
 
-int PoligonoIrreg::vecesMuestF = 0;
+double PoligonoIrreg::vecesMuestF = 0;
 
-int PoligonoIrreg::getVecesMuestF() {
+double PoligonoIrreg::getVecesMuestF() {
     return vecesMuestF;
 }

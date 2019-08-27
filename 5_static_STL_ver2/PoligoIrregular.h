@@ -16,11 +16,11 @@ public:
 
     void printVertice();
 
-    static int getVecesMuestF();
+    static double getVecesMuestF();
 
 private:
     vector<Coordenada> Poligono;
-    static int vecesMuestF;
+    static double vecesMuestF;
 
 };
 

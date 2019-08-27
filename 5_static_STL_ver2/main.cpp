@@ -6,8 +6,7 @@
 using namespace std;
 
 int main() {
-/*
-    int n =100;
+    /*int n =5000;
 
     srand(time(NULL));
     PoligonoIrreg a;
@@ -33,11 +32,10 @@ int main() {
 
     }
 
-    cout <<"Poligonos creados"<<poligonos.size()<<endl;
+    cout <<"Poligonos creados: "<<poligonos.size()<<endl;
     cout << "Vertices creados por los Poligonos: " << a.getVecesMuestF() << endl;
 */
-
-    int n =100;
+    int n =8000;
 
     srand(time(NULL));
     PoligonoIrreg a;
@@ -54,7 +52,7 @@ int main() {
 
     }
 
-    cout <<"Poligonos creados"<<poligonos.size()<<endl;
+    cout << "Poligonos creados "<<poligonos.size()<<endl;
     cout << "Vertices creados por los Poligonos: " << a.getVecesMuestF() << endl;
 
 
