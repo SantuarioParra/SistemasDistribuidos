@@ -6,23 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Coordenada.h
+/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Coordenada.h
 
-/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Fecha.h
+/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Fecha.h
 
-/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/PoligoIrregular.h
+/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/PoligoIrregular.cpp
+PoligoIrregular.h
+/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/PoligoIrregular.h
+iostream
+-
+vector
+-
+
+/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/PoligoIrregular.h
 vector
 -
 Coordenada.h
-/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Coordenada.h
+/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Coordenada.h
 
-/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/main.cpp
+/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/main.cpp
 iostream
 -
 Fecha.h
-/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Fecha.h
+/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Fecha.h
 PoligoIrregular.h
-/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/PoligoIrregular.h
+/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/PoligoIrregular.h
 cmath
 -
 

@@ -43,10 +43,10 @@ RM = /home/fernando/clion-2019.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/Distribuidos/5_static_STL_ver2
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/5_static_STL_ver2.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/5_static_STL_ver2.dir/flags.make
 
 CMakeFiles/5_static_STL_ver2.dir/main.cpp.o: CMakeFiles/5_static_STL_ver2.dir/flags.make
 CMakeFiles/5_static_STL_ver2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5_static_STL_ver2.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_static_STL_ver2.dir/main.cpp.o -c /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5_static_STL_ver2.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_static_STL_ver2.dir/main.cpp.o -c /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/main.cpp
 
 CMakeFiles/5_static_STL_ver2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5_static_STL_ver2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/main.cpp > CMakeFiles/5_static_STL_ver2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/main.cpp > CMakeFiles/5_static_STL_ver2.dir/main.cpp.i
 
 CMakeFiles/5_static_STL_ver2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5_static_STL_ver2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/main.cpp -o CMakeFiles/5_static_STL_ver2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/main.cpp -o CMakeFiles/5_static_STL_ver2.dir/main.cpp.s
 
 CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.o: CMakeFiles/5_static_STL_ver2.dir/flags.make
 CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.o: ../Fecha.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.o -c /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Fecha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.o -c /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Fecha.cpp
 
 CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Fecha.cpp > CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Fecha.cpp > CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.i
 
 CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Fecha.cpp -o CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Fecha.cpp -o CMakeFiles/5_static_STL_ver2.dir/Fecha.cpp.s
 
 CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.o: CMakeFiles/5_static_STL_ver2.dir/flags.make
 CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.o: ../Coordenada.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.o -c /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Coordenada.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.o -c /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Coordenada.cpp
 
 CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Coordenada.cpp > CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Coordenada.cpp > CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.i
 
 CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Coordenada.cpp -o CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Coordenada.cpp -o CMakeFiles/5_static_STL_ver2.dir/Coordenada.cpp.s
 
 CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.o: CMakeFiles/5_static_STL_ver2.dir/flags.make
 CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.o: ../Rectangulo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.o -c /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Rectangulo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.o -c /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Rectangulo.cpp
 
 CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Rectangulo.cpp > CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Rectangulo.cpp > CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.i
 
 CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Rectangulo.cpp -o CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Rectangulo.cpp -o CMakeFiles/5_static_STL_ver2.dir/Rectangulo.cpp.s
 
 CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.o: CMakeFiles/5_static_STL_ver2.dir/flags.make
 CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.o: ../PoligoIrregular.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.o -c /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/PoligoIrregular.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.o -c /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/PoligoIrregular.cpp
 
 CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/PoligoIrregular.cpp > CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/PoligoIrregular.cpp > CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.i
 
 CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/PoligoIrregular.cpp -o CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/PoligoIrregular.cpp -o CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.s
 
 # Object files for target 5_static_STL_ver2
 5_static_STL_ver2_OBJECTS = \
@@ -140,7 +140,7 @@ CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.s: cmake_force
 5_static_STL_ver2: CMakeFiles/5_static_STL_ver2.dir/PoligoIrregular.cpp.o
 5_static_STL_ver2: CMakeFiles/5_static_STL_ver2.dir/build.make
 5_static_STL_ver2: CMakeFiles/5_static_STL_ver2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 5_static_STL_ver2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 5_static_STL_ver2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/5_static_STL_ver2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/5_static_STL_ver2.dir/clean:
 .PHONY : CMakeFiles/5_static_STL_ver2.dir/clean
 
 CMakeFiles/5_static_STL_ver2.dir/depend:
-	cd /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/Distribuidos/5_static_STL_ver2 /home/fernando/Documentos/Distribuidos/5_static_STL_ver2 /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug /home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles/5_static_STL_ver2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2 /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2 /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug /home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/CMakeFiles/5_static_STL_ver2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/5_static_STL_ver2.dir/depend
 

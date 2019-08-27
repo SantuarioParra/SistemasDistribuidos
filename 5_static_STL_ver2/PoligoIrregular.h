@@ -13,14 +13,12 @@ using namespace std;
 class PoligonoIrreg {
 public:
     void addVertice(Coordenada vertice);
-    void addPoligono(Coordenada vertice);
 
     void printVertice();
 
     static int getVecesMuestF();
 
 private:
-    //vector<Coordenada> Poligono;
     vector<Coordenada> Poligono;
     static int vecesMuestF;
 

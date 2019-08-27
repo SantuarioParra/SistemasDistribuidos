@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug"/>
+				<Option working_dir="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug"/>
+				<Option working_dir="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="5_static_STL_ver2">
-				<Option output="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/5_static_STL_ver2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug"/>
+				<Option output="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/5_static_STL_ver2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_static_STL_ver2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_static_STL_ver2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="5_static_STL_ver2/fast">
-				<Option output="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/5_static_STL_ver2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug"/>
+				<Option output="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/5_static_STL_ver2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,51 +67,51 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_static_STL_ver2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_static_STL_ver2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug"/>
+				<Option working_dir="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Coordenada.cpp">
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Coordenada.cpp">
 			<Option target="5_static_STL_ver2"/>
 		</Unit>
-		<Unit filename="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Coordenada.h">
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Coordenada.h">
 			<Option target="5_static_STL_ver2"/>
 		</Unit>
-		<Unit filename="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Fecha.cpp">
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Fecha.cpp">
 			<Option target="5_static_STL_ver2"/>
 		</Unit>
-		<Unit filename="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Fecha.h">
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Fecha.h">
 			<Option target="5_static_STL_ver2"/>
 		</Unit>
-		<Unit filename="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/PoligoIrregular.cpp">
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/PoligoIrregular.cpp">
 			<Option target="5_static_STL_ver2"/>
 		</Unit>
-		<Unit filename="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/PoligoIrregular.h">
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/PoligoIrregular.h">
 			<Option target="5_static_STL_ver2"/>
 		</Unit>
-		<Unit filename="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Rectangulo.cpp">
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Rectangulo.cpp">
 			<Option target="5_static_STL_ver2"/>
 		</Unit>
-		<Unit filename="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/Rectangulo.h">
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/Rectangulo.h">
 			<Option target="5_static_STL_ver2"/>
 		</Unit>
-		<Unit filename="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/main.cpp">
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/main.cpp">
 			<Option target="5_static_STL_ver2"/>
 		</Unit>
-		<Unit filename="/home/fernando/Documentos/Distribuidos/5_static_STL_ver2/CMakeLists.txt">
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/5_static_STL_ver2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
