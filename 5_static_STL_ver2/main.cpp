@@ -2,6 +2,7 @@
 #include "Fecha.h"
 #include "PoligoIrregular.h"
 #include <cmath>
+#include <ctime>
 
 using namespace std;
 
