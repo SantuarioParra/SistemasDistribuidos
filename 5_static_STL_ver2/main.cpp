@@ -2,16 +2,21 @@
 #include "Fecha.h"
 #include "PoligoIrregular.h"
 #include <cmath>
+#include <ctime>
 
 using namespace std;
 
 int main() {
-    /*int n =5000;
+    unsigned t0,t1;
+    t0=clock();
 
-    srand(time(NULL));
+    int n =5000;
+   // srand(time(NULL));
+
     PoligonoIrreg a;
 
     vector<PoligonoIrreg> poligonos;
+///* 
     poligonos.reserve(10);
 
     for (int x = 0; x<n ; x++){
@@ -31,17 +36,8 @@ int main() {
         }
 
     }
-
-    cout <<"Poligonos creados: "<<poligonos.size()<<endl;
-    cout << "Vertices creados por los Poligonos: " << a.getVecesMuestF() << endl;
-*/
-    int n =8000;
-
-    srand(time(NULL));
-    PoligonoIrreg a;
-
-    vector<PoligonoIrreg> poligonos;
-
+//*/
+/*
     for (int x = 0; x<n ; x++){
 
             for (int i = 0; i < rand() % 100; ++i) {
@@ -51,9 +47,12 @@ int main() {
             poligonos.push_back(a);
 
     }
-
+*/
     cout << "Poligonos creados "<<poligonos.size()<<endl;
     cout << "Vertices creados por los Poligonos: " << a.getVecesMuestF() << endl;
 
+    t1=clock();
+    double time = (double(t1-t0)/CLOCKS_PER_SEC);
+    cout << "Time: " << time << endl;
 
 }
