@@ -12,12 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="039ed7b7-4e8f-4b5c-96f7-1d0f7c24060a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../7_strings/.idea/7_strings.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/5_static_STL_ver2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/5_static_STL_ver2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_static_STL_ver2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_static_STL_ver2.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_static_STL_ver2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_static_STL_ver2.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushback" beforeDir="false" afterPath="$PROJECT_DIR$/pushback" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserve" beforeDir="false" afterPath="$PROJECT_DIR$/reserve" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,8 @@
       <workItem from="1566998594463" duration="1425000" />
       <workItem from="1567001465845" duration="509000" />
       <workItem from="1567002600779" duration="504000" />
-      <workItem from="1567004882890" duration="1280000" />
+      <workItem from="1567004882890" duration="2070000" />
+      <workItem from="1567085948510" duration="524000" />
     </task>
     <servers />
   </component>
