@@ -87,6 +87,12 @@
 		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/7_strings/main.cpp">
 			<Option target="7_strings"/>
 		</Unit>
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/7_strings/palabras.cpp">
+			<Option target="7_strings"/>
+		</Unit>
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/7_strings/palabras.h">
+			<Option target="7_strings"/>
+		</Unit>
 		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/7_strings/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

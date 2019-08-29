@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/7_strings.dir/build.make CMakeFiles/7_strings.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+palabras.o: palabras.cpp.o
+
+.PHONY : palabras.o
+
+# target to build an object file
+palabras.cpp.o:
+	$(MAKE) -f CMakeFiles/7_strings.dir/build.make CMakeFiles/7_strings.dir/palabras.cpp.o
+.PHONY : palabras.cpp.o
+
+palabras.i: palabras.cpp.i
+
+.PHONY : palabras.i
+
+# target to preprocess a source file
+palabras.cpp.i:
+	$(MAKE) -f CMakeFiles/7_strings.dir/build.make CMakeFiles/7_strings.dir/palabras.cpp.i
+.PHONY : palabras.cpp.i
+
+palabras.s: palabras.cpp.s
+
+.PHONY : palabras.s
+
+# target to generate assembly for a file
+palabras.cpp.s:
+	$(MAKE) -f CMakeFiles/7_strings.dir/build.make CMakeFiles/7_strings.dir/palabras.cpp.s
+.PHONY : palabras.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... palabras.o"
+	@echo "... palabras.i"
+	@echo "... palabras.s"
 .PHONY : help
 
 
