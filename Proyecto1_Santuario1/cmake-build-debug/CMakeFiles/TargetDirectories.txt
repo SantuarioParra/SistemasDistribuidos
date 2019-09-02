@@ -1,0 +1,3 @@
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmake-build-debug/CMakeFiles/Proyecto1_Santuario1.dir
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/proyecto.cpp
+proyecto.h
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/proyecto.h
+iostream
+-
+cmath
+-
+
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/proyecto.h
+
