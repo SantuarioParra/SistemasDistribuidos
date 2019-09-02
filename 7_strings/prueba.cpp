@@ -70,21 +70,22 @@ bool buscar(const char *paja, const char *aguja) {
 void calculos_numericos(const int max){
 	double i = 0;
 
-	int sin = 0;
-	int cos = 0;
-	int tan = 0;
-	int log = 0;
-	int sqrt = 0;
+	int sin_v = 0;
+	int cos_v = 0;
+	int tan_v = 0;
+	int log_v = 0;
+	int sqrt_v = 0;
 
 	while (i < max) {
-		sin += sin(i);
-		cos += cos(i);
-		tan += tan(i);
-		log += log(i);
-		sqrt += sqrt(i);
+		sin_v += sin(i);
+		cos_v += cos(i);
+		tan_v += tan(i);
+		log_v += log(i);
+		sqrt_v += sqrt(i);
 		i++;
 	}
 }
+
 
 void gen_randomCHAR(const int palabras, const int size) {
 
