@@ -1,4 +1,5 @@
 from Crypto.Random import random
+import math as math
 
 
 def generarCadena():
@@ -21,3 +22,19 @@ def buscarIPN(cadenota):
         print("IPN encontrado en la posicion: " + str(linea))
     else:
         print("IPN no encontrado")
+
+
+def calculosNumericos(tamañio):
+    sen = 0
+    cos = 0
+    tan = 0
+    log = 0
+    root = 0
+    i = 1
+    while (tamañio > i):
+        sen += math.sin(i)
+        cos += math.cos(i)
+        tan += math.tan(i)
+        log += math.log10(i)
+        root += math.sqrt(i)
+        i += 1
