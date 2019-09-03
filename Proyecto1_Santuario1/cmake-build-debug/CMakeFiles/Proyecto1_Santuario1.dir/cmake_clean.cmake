@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj"
   "CMakeFiles/Proyecto1_Santuario1.dir/proyecto.cpp.obj"
+  "CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.obj"
+  "CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj"
   "Proyecto1_Santuario1.pdb"
   "Proyecto1_Santuario1.exe"
   "Proyecto1_Santuario1.exe.manifest"

@@ -82,21 +82,51 @@ CMakeFiles/Proyecto1_Santuario1.dir/proyecto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Santuario1.dir/proyecto.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\proyecto.cpp -o CMakeFiles\Proyecto1_Santuario1.dir\proyecto.cpp.s
 
+CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.obj: CMakeFiles/Proyecto1_Santuario1.dir/flags.make
+CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.obj: ../temperatura.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto1_Santuario1.dir\temperatura.cpp.obj -c C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\temperatura.cpp
+
+CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\temperatura.cpp > CMakeFiles\Proyecto1_Santuario1.dir\temperatura.cpp.i
+
+CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\temperatura.cpp -o CMakeFiles\Proyecto1_Santuario1.dir\temperatura.cpp.s
+
+CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj: CMakeFiles/Proyecto1_Santuario1.dir/flags.make
+CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj: ../Fraccion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto1_Santuario1.dir\Fraccion.cpp.obj -c C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Fraccion.cpp
+
+CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Fraccion.cpp > CMakeFiles\Proyecto1_Santuario1.dir\Fraccion.cpp.i
+
+CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Fraccion.cpp -o CMakeFiles\Proyecto1_Santuario1.dir\Fraccion.cpp.s
+
 # Object files for target Proyecto1_Santuario1
 Proyecto1_Santuario1_OBJECTS = \
 "CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj" \
-"CMakeFiles/Proyecto1_Santuario1.dir/proyecto.cpp.obj"
+"CMakeFiles/Proyecto1_Santuario1.dir/proyecto.cpp.obj" \
+"CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.obj" \
+"CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj"
 
 # External object files for target Proyecto1_Santuario1
 Proyecto1_Santuario1_EXTERNAL_OBJECTS =
 
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/proyecto.cpp.obj
+Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.obj
+Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/build.make
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/linklibs.rsp
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/objects1.rsp
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Proyecto1_Santuario1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Proyecto1_Santuario1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Proyecto1_Santuario1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
