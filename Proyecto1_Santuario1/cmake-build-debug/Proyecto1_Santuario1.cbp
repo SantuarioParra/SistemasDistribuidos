@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Fraccion.cpp">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Fraccion.h">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
 		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/main.cpp">
 			<Option target="Proyecto1_Santuario1"/>
 		</Unit>
@@ -89,6 +95,12 @@
 			<Option target="Proyecto1_Santuario1"/>
 		</Unit>
 		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/proyecto.h">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/temperatura.cpp">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/temperatura.h">
 			<Option target="Proyecto1_Santuario1"/>
 		</Unit>
 		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/CMakeLists.txt">

@@ -122,6 +122,33 @@ Proyecto1_Santuario1/fast:
 	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/build
 .PHONY : Proyecto1_Santuario1/fast
 
+Fraccion.obj: Fraccion.cpp.obj
+
+.PHONY : Fraccion.obj
+
+# target to build an object file
+Fraccion.cpp.obj:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj
+.PHONY : Fraccion.cpp.obj
+
+Fraccion.i: Fraccion.cpp.i
+
+.PHONY : Fraccion.i
+
+# target to preprocess a source file
+Fraccion.cpp.i:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.i
+.PHONY : Fraccion.cpp.i
+
+Fraccion.s: Fraccion.cpp.s
+
+.PHONY : Fraccion.s
+
+# target to generate assembly for a file
+Fraccion.cpp.s:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.s
+.PHONY : Fraccion.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -176,6 +203,33 @@ proyecto.cpp.s:
 	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/proyecto.cpp.s
 .PHONY : proyecto.cpp.s
 
+temperatura.obj: temperatura.cpp.obj
+
+.PHONY : temperatura.obj
+
+# target to build an object file
+temperatura.cpp.obj:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.obj
+.PHONY : temperatura.cpp.obj
+
+temperatura.i: temperatura.cpp.i
+
+.PHONY : temperatura.i
+
+# target to preprocess a source file
+temperatura.cpp.i:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.i
+.PHONY : temperatura.cpp.i
+
+temperatura.s: temperatura.cpp.s
+
+.PHONY : temperatura.s
+
+# target to generate assembly for a file
+temperatura.cpp.s:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.s
+.PHONY : temperatura.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +239,18 @@ help:
 	@echo ... Proyecto1_Santuario1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Fraccion.obj
+	@echo ... Fraccion.i
+	@echo ... Fraccion.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... proyecto.obj
 	@echo ... proyecto.i
 	@echo ... proyecto.s
+	@echo ... temperatura.obj
+	@echo ... temperatura.i
+	@echo ... temperatura.s
 .PHONY : help
 
 
