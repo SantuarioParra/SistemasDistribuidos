@@ -67,24 +67,26 @@ bool buscar(const char *paja, const char *aguja) {
 	}
 }
 */
+
 void calculos_numericos(const int max){
 	double i = 0;
 
-	int sin = 0;
-	int cos = 0;
-	int tan = 0;
-	int log = 0;
-	int sqrt = 0;
+    float sinf = 0;
+    float cosf = 0;
+	float tanf = 0;
+    float logf = 0;
+	float sqrtf = 0;
 
 	while (i < max) {
-		sin += sin(i);
-		cos += cos(i);
-		tan += tan(i);
-		log += log(i);
-		sqrt += sqrt(i);
+		sinf += sin(i);
+		cosf += cos(i);
+		tanf += tan(i);
+		logf += log(i);
+		sqrtf += sqrt(i);
 		i++;
 	}
 }
+
 
 void gen_randomCHAR(const int palabras, const int size) {
 
@@ -137,9 +139,11 @@ int main(int argc, char const *argv[]) {
 
 	size_t num = 35152000;
 
-	cad = gen_randomSTRING(num, 3);
+	//cad = gen_randomSTRING(num, 3);
 
 	//gen_randomCHAR(num, 3);
+
+	calculos_numericos(11100000);
 
 	return 0;
 }

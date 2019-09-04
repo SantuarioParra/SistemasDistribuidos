@@ -12,9 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="039ed7b7-4e8f-4b5c-96f7-1d0f7c24060a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../7_PythonComparacion/Cadenota/Cadena.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7_PythonComparacion/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7_ComparacionJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7_ComparacionJava/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../7_strings" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -81,7 +80,7 @@
       <workItem from="1567004882890" duration="2070000" />
       <workItem from="1567085948510" duration="524000" />
       <workItem from="1567087221972" duration="606000" />
-      <workItem from="1567431548629" duration="599000" />
+      <workItem from="1567431548629" duration="661000" />
     </task>
     <servers />
   </component>

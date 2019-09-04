@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/fernando/Documentos/SistemasDistribuidos/7_strings/main.cpp
+/home/fernando/Documentos/SistemasDistribuidos/7_strings/prueba.cpp
+cstring
+-
+string.h
+-
 iostream
 -
-palabras.h
-/home/fernando/Documentos/SistemasDistribuidos/7_strings/palabras.h
-string
+cmath
 -
-
-/home/fernando/Documentos/SistemasDistribuidos/7_strings/palabras.h
-iostream
--
-string
+cstdbool
 -
 
