@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fernando/Documentos/SistemasDistribuidos/8_threads_c++/main.cpp
+iostream
+-
+unistd.h
+-
+thread
+-
+atomic
+-
+

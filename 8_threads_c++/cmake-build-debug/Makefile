@@ -123,6 +123,33 @@ depend:
 	$(MAKE) -f CMakeFiles/8_threads_c__.dir/build.make CMakeFiles/8_threads_c__.dir/build
 .PHONY : 8_threads_c__/fast
 
+Semaforo.o: Semaforo.cpp.o
+
+.PHONY : Semaforo.o
+
+# target to build an object file
+Semaforo.cpp.o:
+	$(MAKE) -f CMakeFiles/8_threads_c__.dir/build.make CMakeFiles/8_threads_c__.dir/Semaforo.cpp.o
+.PHONY : Semaforo.cpp.o
+
+Semaforo.i: Semaforo.cpp.i
+
+.PHONY : Semaforo.i
+
+# target to preprocess a source file
+Semaforo.cpp.i:
+	$(MAKE) -f CMakeFiles/8_threads_c__.dir/build.make CMakeFiles/8_threads_c__.dir/Semaforo.cpp.i
+.PHONY : Semaforo.cpp.i
+
+Semaforo.s: Semaforo.cpp.s
+
+.PHONY : Semaforo.s
+
+# target to generate assembly for a file
+Semaforo.cpp.s:
+	$(MAKE) -f CMakeFiles/8_threads_c__.dir/build.make CMakeFiles/8_threads_c__.dir/Semaforo.cpp.s
+.PHONY : Semaforo.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 8_threads_c__"
 	@echo "... edit_cache"
+	@echo "... Semaforo.o"
+	@echo "... Semaforo.i"
+	@echo "... Semaforo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

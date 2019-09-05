@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/fernando/Documentos/SistemasDistribuidos/8_threads_c++/Semaforo.cpp" "/home/fernando/Documentos/SistemasDistribuidos/8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/Semaforo.cpp.o"
   "/home/fernando/Documentos/SistemasDistribuidos/8_threads_c++/main.cpp" "/home/fernando/Documentos/SistemasDistribuidos/8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
