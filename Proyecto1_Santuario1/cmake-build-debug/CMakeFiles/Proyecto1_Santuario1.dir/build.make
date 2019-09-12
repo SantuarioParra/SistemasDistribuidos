@@ -160,18 +160,18 @@ CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Criba.cpp -o CMakeFiles\Proyecto1_Santuario1.dir\Criba.cpp.s
 
-CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj: CMakeFiles/Proyecto1_Santuario1.dir/flags.make
-CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj: ../numeros.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto1_Santuario1.dir\numeros.cpp.obj -c C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\numeros.cpp
+CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.obj: CMakeFiles/Proyecto1_Santuario1.dir/flags.make
+CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.obj: ../Numero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto1_Santuario1.dir\Numero.cpp.obj -c C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Numero.cpp
 
-CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\numeros.cpp > CMakeFiles\Proyecto1_Santuario1.dir\numeros.cpp.i
+CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Numero.cpp > CMakeFiles\Proyecto1_Santuario1.dir\Numero.cpp.i
 
-CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\numeros.cpp -o CMakeFiles\Proyecto1_Santuario1.dir\numeros.cpp.s
+CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Numero.cpp -o CMakeFiles\Proyecto1_Santuario1.dir\Numero.cpp.s
 
 # Object files for target Proyecto1_Santuario1
 Proyecto1_Santuario1_OBJECTS = \
@@ -183,7 +183,7 @@ Proyecto1_Santuario1_OBJECTS = \
 "CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.obj" \
 "CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.obj" \
 "CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj" \
-"CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj"
+"CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.obj"
 
 # External object files for target Proyecto1_Santuario1
 Proyecto1_Santuario1_EXTERNAL_OBJECTS =
@@ -196,7 +196,7 @@ Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.obj
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.obj
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.obj
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj
-Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj
+Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.obj
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/build.make
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/linklibs.rsp
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/objects1.rsp

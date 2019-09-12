@@ -4,8 +4,15 @@
 CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.obj: ../Coordenada.cpp
 CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.obj: ../Coordenada.h
 
+CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj: ../Criba.cpp
+CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj: ../Criba.h
+CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj: ../Numero.h
+
 CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj: ../Fraccion.cpp
 CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj: ../Fraccion.h
+
+CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.obj: ../Numero.cpp
+CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.obj: ../Numero.h
 
 CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.obj: ../Coordenada.h
 CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.obj: ../Ortoedro.cpp
@@ -17,7 +24,9 @@ CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.obj: ../Rectangulo.cpp
 CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.obj: ../Rectangulo.h
 
 CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj: ../Coordenada.h
+CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj: ../Criba.h
 CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj: ../Fraccion.h
+CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj: ../Numero.h
 CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj: ../Rectangulo.h
 CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj: ../proyecto.h

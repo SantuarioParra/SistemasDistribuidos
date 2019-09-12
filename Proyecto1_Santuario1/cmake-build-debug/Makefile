@@ -203,6 +203,33 @@ Fraccion.cpp.s:
 	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.s
 .PHONY : Fraccion.cpp.s
 
+Numero.obj: Numero.cpp.obj
+
+.PHONY : Numero.obj
+
+# target to build an object file
+Numero.cpp.obj:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.obj
+.PHONY : Numero.cpp.obj
+
+Numero.i: Numero.cpp.i
+
+.PHONY : Numero.i
+
+# target to preprocess a source file
+Numero.cpp.i:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.i
+.PHONY : Numero.cpp.i
+
+Numero.s: Numero.cpp.s
+
+.PHONY : Numero.s
+
+# target to generate assembly for a file
+Numero.cpp.s:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.s
+.PHONY : Numero.cpp.s
+
 Ortoedro.obj: Ortoedro.cpp.obj
 
 .PHONY : Ortoedro.obj
@@ -284,33 +311,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-numeros.obj: numeros.cpp.obj
-
-.PHONY : numeros.obj
-
-# target to build an object file
-numeros.cpp.obj:
-	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj
-.PHONY : numeros.cpp.obj
-
-numeros.i: numeros.cpp.i
-
-.PHONY : numeros.i
-
-# target to preprocess a source file
-numeros.cpp.i:
-	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.i
-.PHONY : numeros.cpp.i
-
-numeros.s: numeros.cpp.s
-
-.PHONY : numeros.s
-
-# target to generate assembly for a file
-numeros.cpp.s:
-	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.s
-.PHONY : numeros.cpp.s
-
 proyecto.obj: proyecto.cpp.obj
 
 .PHONY : proyecto.obj
@@ -383,6 +383,9 @@ help:
 	@echo ... Fraccion.obj
 	@echo ... Fraccion.i
 	@echo ... Fraccion.s
+	@echo ... Numero.obj
+	@echo ... Numero.i
+	@echo ... Numero.s
 	@echo ... Ortoedro.obj
 	@echo ... Ortoedro.i
 	@echo ... Ortoedro.s
@@ -392,9 +395,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... numeros.obj
-	@echo ... numeros.i
-	@echo ... numeros.s
 	@echo ... proyecto.obj
 	@echo ... proyecto.i
 	@echo ... proyecto.s

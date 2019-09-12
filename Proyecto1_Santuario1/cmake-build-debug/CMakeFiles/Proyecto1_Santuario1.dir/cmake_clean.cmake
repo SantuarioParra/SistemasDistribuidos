@@ -7,7 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.obj"
   "CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.obj"
   "CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj"
-  "CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj"
+  "CMakeFiles/Proyecto1_Santuario1.dir/Numero.cpp.obj"
   "Proyecto1_Santuario1.pdb"
   "Proyecto1_Santuario1.exe"
   "Proyecto1_Santuario1.exe.manifest"

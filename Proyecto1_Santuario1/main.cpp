@@ -5,6 +5,7 @@
 #include "Fraccion.h"
 #include "Coordenada.h"
 #include "Rectangulo.h"
+#include "Criba.h"
 
 using namespace std;
 
@@ -82,5 +83,12 @@ int main() {
     cout<<r.obtenerArea();*/
 
     //Ejercicio 7
+    int numeros=0;
+    cin>>numeros;
+    Criba criba (numeros);
+    criba.llenarCriba();
+    criba.imprimirCriba();
+    criba.obtenerPrimos();
+    criba.imprimirPrimos();
 
 }

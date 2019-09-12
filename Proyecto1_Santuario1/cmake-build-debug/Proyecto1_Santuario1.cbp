@@ -100,6 +100,12 @@
 		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Fraccion.h">
 			<Option target="Proyecto1_Santuario1"/>
 		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Numero.cpp">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Numero.h">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
 		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Ortoedro.cpp">
 			<Option target="Proyecto1_Santuario1"/>
 		</Unit>
@@ -113,12 +119,6 @@
 			<Option target="Proyecto1_Santuario1"/>
 		</Unit>
 		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/main.cpp">
-			<Option target="Proyecto1_Santuario1"/>
-		</Unit>
-		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/numeros.cpp">
-			<Option target="Proyecto1_Santuario1"/>
-		</Unit>
-		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/numeros.h">
 			<Option target="Proyecto1_Santuario1"/>
 		</Unit>
 		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/proyecto.cpp">
