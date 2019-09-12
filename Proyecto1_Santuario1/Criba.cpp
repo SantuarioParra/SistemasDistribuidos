@@ -31,11 +31,9 @@ void Criba::obtenerPrimos() {
 
             for (int j = i + 1; j < criba.size(); j++) {
                 Numero primo = criba[j];
-                if (primo.getPrimo() != false) {
-                    if (primo.getNumero() % n.getNumero() == 0) {
-                        primo.setPrimo(false);
-                        criba[j] = primo;
-                    }
+                if ((primo.getPrimo() != false) && (primo.getNumero() % n.getNumero() == 0)) {
+                    primo.setPrimo(false);
+                    criba[j] = primo;
                 } else {
                     continue;
                 }
@@ -46,10 +44,10 @@ void Criba::obtenerPrimos() {
 }
 
 void Criba::imprimirPrimos() {
-    cout <<"\n ----PRIMOS----"<<endl;
+    cout << "\n ----PRIMOS----" << endl;
     for (int i = 0; i < criba.size(); i++) {
         Numero a = criba[i];
-        if (a.getPrimo()!=false)
-        cout << a.getNumero() << ", ";
+        if (a.getPrimo() != false)
+            cout << a.getNumero() << ", ";
     }
 }

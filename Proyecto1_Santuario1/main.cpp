@@ -83,12 +83,12 @@ int main() {
     cout<<r.obtenerArea();*/
 
     //Ejercicio 7
-    int numeros=0;
+    /*int numeros=0;
     cin>>numeros;
     Criba criba (numeros);
     criba.llenarCriba();
     criba.imprimirCriba();
     criba.obtenerPrimos();
-    criba.imprimirPrimos();
+    criba.imprimirPrimos();*/
 
 }
