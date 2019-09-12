@@ -6,6 +6,7 @@
 #include "Coordenada.h"
 #include "Rectangulo.h"
 #include "Criba.h"
+#include "Ortoedro.h"
 
 using namespace std;
 
@@ -77,10 +78,13 @@ int main() {
 */
 
     //Ejercicio 6
-    /*Coordenada c (2,3,3);
-    Coordenada d(5,1,3);
-    Rectangulo r(c,d);
-    cout<<r.obtenerArea();*/
+   /* Ortoedro ortoe1(Coordenada(1,7,2),Coordenada(15,2,9));
+    double ancho, alto;
+    cout << "Calculando el area y volumen de un ortoedro en un plano carteciano:\n";
+    ortoe1.obtieneVertices();
+    cout<<"Area = "<<ortoe1.obtieneArea()<<endl;
+    cout<<"Volumen = "<<ortoe1.obtieneVolumen()<<endl;*/
+
 
     //Ejercicio 7
     /*int numeros=0;

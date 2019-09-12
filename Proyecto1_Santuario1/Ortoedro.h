@@ -9,20 +9,19 @@
 #include "Rectangulo.h"
 
 class Ortoedro {
-public:
-    Ortoedro() {}
-
-    Ortoedro(Rectangulo base, Rectangulo cara) :base1(base),base2(base),cara1(cara),cara2(cara),cara3(cara),cara4(cara) {};
-
-    double obtieneArea();
-
-    double obtieneVolumen();
-
-    void obtieneVertices();
-
 private:
-    double area, volumen;
-    Rectangulo base1, base2, cara1, cara2, cara3, cara4;
+    Coordenada superiorIzq;
+    Coordenada inferiorDer;
+public:
+    Ortoedro();
+    Ortoedro(Coordenada supI, Coordenada infD);
+    void obtieneVertices();
+    double obtieneArea();
+    double obtieneVolumen();
+    Coordenada obtieneSupIzq();
+    Coordenada obtieneInfDer();
+
+
 
 };
 
