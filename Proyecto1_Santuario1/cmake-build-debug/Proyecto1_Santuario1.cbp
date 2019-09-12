@@ -82,13 +82,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Coordenada.cpp">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Coordenada.h">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Criba.cpp">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Criba.h">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
 		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Fraccion.cpp">
 			<Option target="Proyecto1_Santuario1"/>
 		</Unit>
 		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Fraccion.h">
 			<Option target="Proyecto1_Santuario1"/>
 		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Ortoedro.cpp">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Ortoedro.h">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Rectangulo.cpp">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Rectangulo.h">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
 		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/main.cpp">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/numeros.cpp">
+			<Option target="Proyecto1_Santuario1"/>
+		</Unit>
+		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/numeros.h">
 			<Option target="Proyecto1_Santuario1"/>
 		</Unit>
 		<Unit filename="C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/proyecto.cpp">

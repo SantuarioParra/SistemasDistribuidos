@@ -108,12 +108,82 @@ CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Fraccion.cpp -o CMakeFiles\Proyecto1_Santuario1.dir\Fraccion.cpp.s
 
+CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.obj: CMakeFiles/Proyecto1_Santuario1.dir/flags.make
+CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.obj: ../Coordenada.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto1_Santuario1.dir\Coordenada.cpp.obj -c C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Coordenada.cpp
+
+CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Coordenada.cpp > CMakeFiles\Proyecto1_Santuario1.dir\Coordenada.cpp.i
+
+CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Coordenada.cpp -o CMakeFiles\Proyecto1_Santuario1.dir\Coordenada.cpp.s
+
+CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.obj: CMakeFiles/Proyecto1_Santuario1.dir/flags.make
+CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.obj: ../Rectangulo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto1_Santuario1.dir\Rectangulo.cpp.obj -c C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Rectangulo.cpp
+
+CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Rectangulo.cpp > CMakeFiles\Proyecto1_Santuario1.dir\Rectangulo.cpp.i
+
+CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Rectangulo.cpp -o CMakeFiles\Proyecto1_Santuario1.dir\Rectangulo.cpp.s
+
+CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.obj: CMakeFiles/Proyecto1_Santuario1.dir/flags.make
+CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.obj: ../Ortoedro.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto1_Santuario1.dir\Ortoedro.cpp.obj -c C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Ortoedro.cpp
+
+CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Ortoedro.cpp > CMakeFiles\Proyecto1_Santuario1.dir\Ortoedro.cpp.i
+
+CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Ortoedro.cpp -o CMakeFiles\Proyecto1_Santuario1.dir\Ortoedro.cpp.s
+
+CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj: CMakeFiles/Proyecto1_Santuario1.dir/flags.make
+CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj: ../Criba.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto1_Santuario1.dir\Criba.cpp.obj -c C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Criba.cpp
+
+CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Criba.cpp > CMakeFiles\Proyecto1_Santuario1.dir\Criba.cpp.i
+
+CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\Criba.cpp -o CMakeFiles\Proyecto1_Santuario1.dir\Criba.cpp.s
+
+CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj: CMakeFiles/Proyecto1_Santuario1.dir/flags.make
+CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj: ../numeros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto1_Santuario1.dir\numeros.cpp.obj -c C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\numeros.cpp
+
+CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\numeros.cpp > CMakeFiles\Proyecto1_Santuario1.dir\numeros.cpp.i
+
+CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\numeros.cpp -o CMakeFiles\Proyecto1_Santuario1.dir\numeros.cpp.s
+
 # Object files for target Proyecto1_Santuario1
 Proyecto1_Santuario1_OBJECTS = \
 "CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj" \
 "CMakeFiles/Proyecto1_Santuario1.dir/proyecto.cpp.obj" \
 "CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.obj" \
-"CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj"
+"CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj" \
+"CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.obj" \
+"CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.obj" \
+"CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.obj" \
+"CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj" \
+"CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj"
 
 # External object files for target Proyecto1_Santuario1
 Proyecto1_Santuario1_EXTERNAL_OBJECTS =
@@ -122,11 +192,16 @@ Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/proyecto.cpp.obj
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.obj
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj
+Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.obj
+Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.obj
+Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.obj
+Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj
+Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/build.make
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/linklibs.rsp
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/objects1.rsp
 Proyecto1_Santuario1.exe: CMakeFiles/Proyecto1_Santuario1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Proyecto1_Santuario1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Shado\OneDrive\Documentos\SistemasDistribuidos\Proyecto1_Santuario1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Proyecto1_Santuario1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Proyecto1_Santuario1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

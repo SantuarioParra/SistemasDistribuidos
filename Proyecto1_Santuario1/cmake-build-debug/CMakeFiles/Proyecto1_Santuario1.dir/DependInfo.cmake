@@ -4,8 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Coordenada.cpp" "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmake-build-debug/CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.obj"
+  "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Criba.cpp" "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmake-build-debug/CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj"
   "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Fraccion.cpp" "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmake-build-debug/CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.obj"
+  "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Ortoedro.cpp" "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmake-build-debug/CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.obj"
+  "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Rectangulo.cpp" "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmake-build-debug/CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.obj"
   "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/main.cpp" "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmake-build-debug/CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.obj"
+  "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/numeros.cpp" "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmake-build-debug/CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj"
   "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/proyecto.cpp" "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmake-build-debug/CMakeFiles/Proyecto1_Santuario1.dir/proyecto.cpp.obj"
   "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/temperatura.cpp" "C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmake-build-debug/CMakeFiles/Proyecto1_Santuario1.dir/temperatura.cpp.obj"
   )

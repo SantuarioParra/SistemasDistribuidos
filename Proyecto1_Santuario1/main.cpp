@@ -3,11 +3,14 @@
 #include "proyecto.h"
 #include "temperatura.h"
 #include "Fraccion.h"
+#include "Coordenada.h"
+#include "Rectangulo.h"
 
 using namespace std;
 
 int main() {
-   /* double  n,i,c;
+    //Ejercicios 1, 2, 3
+    /*double  n,i,c;
     Proyecto p;
     cout<<"Introduzca el numero a sacar la raiz: "<<endl;
     cin>>n;
@@ -19,9 +22,10 @@ int main() {
 
     cout<<"Introduzca el tiempo en segundos a convertir: "<<endl;
     cin>>c;
-    p.ConvertirSegundos(c);
+    p.ConvertirSegundos(c);*/
 
-    Temperatura t;
+    //Ejercicios 4, 5
+    /*Temperatura t;
     int opcion=0;
     double temperatura = 0;
     while(true){
@@ -64,10 +68,19 @@ int main() {
                 break;
 
         }
-    }*/
+    }
 
    Fraccion f (18,15);
    f.printFraccionReducida();
    cout<<f.printResultado()<<endl;
+*/
+
+    //Ejercicio 6
+    /*Coordenada c (2,3,3);
+    Coordenada d(5,1,3);
+    Rectangulo r(c,d);
+    cout<<r.obtenerArea();*/
+
+    //Ejercicio 7
 
 }

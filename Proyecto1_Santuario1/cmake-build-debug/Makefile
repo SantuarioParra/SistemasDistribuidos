@@ -122,6 +122,60 @@ Proyecto1_Santuario1/fast:
 	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/build
 .PHONY : Proyecto1_Santuario1/fast
 
+Coordenada.obj: Coordenada.cpp.obj
+
+.PHONY : Coordenada.obj
+
+# target to build an object file
+Coordenada.cpp.obj:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.obj
+.PHONY : Coordenada.cpp.obj
+
+Coordenada.i: Coordenada.cpp.i
+
+.PHONY : Coordenada.i
+
+# target to preprocess a source file
+Coordenada.cpp.i:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.i
+.PHONY : Coordenada.cpp.i
+
+Coordenada.s: Coordenada.cpp.s
+
+.PHONY : Coordenada.s
+
+# target to generate assembly for a file
+Coordenada.cpp.s:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Coordenada.cpp.s
+.PHONY : Coordenada.cpp.s
+
+Criba.obj: Criba.cpp.obj
+
+.PHONY : Criba.obj
+
+# target to build an object file
+Criba.cpp.obj:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.obj
+.PHONY : Criba.cpp.obj
+
+Criba.i: Criba.cpp.i
+
+.PHONY : Criba.i
+
+# target to preprocess a source file
+Criba.cpp.i:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.i
+.PHONY : Criba.cpp.i
+
+Criba.s: Criba.cpp.s
+
+.PHONY : Criba.s
+
+# target to generate assembly for a file
+Criba.cpp.s:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Criba.cpp.s
+.PHONY : Criba.cpp.s
+
 Fraccion.obj: Fraccion.cpp.obj
 
 .PHONY : Fraccion.obj
@@ -149,6 +203,60 @@ Fraccion.cpp.s:
 	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Fraccion.cpp.s
 .PHONY : Fraccion.cpp.s
 
+Ortoedro.obj: Ortoedro.cpp.obj
+
+.PHONY : Ortoedro.obj
+
+# target to build an object file
+Ortoedro.cpp.obj:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.obj
+.PHONY : Ortoedro.cpp.obj
+
+Ortoedro.i: Ortoedro.cpp.i
+
+.PHONY : Ortoedro.i
+
+# target to preprocess a source file
+Ortoedro.cpp.i:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.i
+.PHONY : Ortoedro.cpp.i
+
+Ortoedro.s: Ortoedro.cpp.s
+
+.PHONY : Ortoedro.s
+
+# target to generate assembly for a file
+Ortoedro.cpp.s:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Ortoedro.cpp.s
+.PHONY : Ortoedro.cpp.s
+
+Rectangulo.obj: Rectangulo.cpp.obj
+
+.PHONY : Rectangulo.obj
+
+# target to build an object file
+Rectangulo.cpp.obj:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.obj
+.PHONY : Rectangulo.cpp.obj
+
+Rectangulo.i: Rectangulo.cpp.i
+
+.PHONY : Rectangulo.i
+
+# target to preprocess a source file
+Rectangulo.cpp.i:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.i
+.PHONY : Rectangulo.cpp.i
+
+Rectangulo.s: Rectangulo.cpp.s
+
+.PHONY : Rectangulo.s
+
+# target to generate assembly for a file
+Rectangulo.cpp.s:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/Rectangulo.cpp.s
+.PHONY : Rectangulo.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -175,6 +283,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+numeros.obj: numeros.cpp.obj
+
+.PHONY : numeros.obj
+
+# target to build an object file
+numeros.cpp.obj:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.obj
+.PHONY : numeros.cpp.obj
+
+numeros.i: numeros.cpp.i
+
+.PHONY : numeros.i
+
+# target to preprocess a source file
+numeros.cpp.i:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.i
+.PHONY : numeros.cpp.i
+
+numeros.s: numeros.cpp.s
+
+.PHONY : numeros.s
+
+# target to generate assembly for a file
+numeros.cpp.s:
+	$(MAKE) -f CMakeFiles\Proyecto1_Santuario1.dir\build.make CMakeFiles/Proyecto1_Santuario1.dir/numeros.cpp.s
+.PHONY : numeros.cpp.s
 
 proyecto.obj: proyecto.cpp.obj
 
@@ -239,12 +374,27 @@ help:
 	@echo ... Proyecto1_Santuario1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Coordenada.obj
+	@echo ... Coordenada.i
+	@echo ... Coordenada.s
+	@echo ... Criba.obj
+	@echo ... Criba.i
+	@echo ... Criba.s
 	@echo ... Fraccion.obj
 	@echo ... Fraccion.i
 	@echo ... Fraccion.s
+	@echo ... Ortoedro.obj
+	@echo ... Ortoedro.i
+	@echo ... Ortoedro.s
+	@echo ... Rectangulo.obj
+	@echo ... Rectangulo.i
+	@echo ... Rectangulo.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... numeros.obj
+	@echo ... numeros.i
+	@echo ... numeros.s
 	@echo ... proyecto.obj
 	@echo ... proyecto.i
 	@echo ... proyecto.s
