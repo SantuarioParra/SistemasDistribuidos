@@ -86,13 +86,13 @@ int main() {
     cout<<"Volumen = "<<ortoe1.obtieneVolumen()<<endl;*/
 
 
-    //Ejercicio 7
-    /*int numeros=0;
-    cin>>numeros;
-    Criba criba (numeros);
-    criba.llenarCriba();
-    criba.imprimirCriba();
-    criba.obtenerPrimos();
-    criba.imprimirPrimos();*/
+        //Ejercicio 7
+        /*int numeros=0;
+        cin>>numeros;
+        Criba criba (numeros);
+        criba.llenarCriba();
+        criba.imprimirCriba();
+        criba.obtenerPrimos();
+        criba.imprimirPrimos();*/
 
 }

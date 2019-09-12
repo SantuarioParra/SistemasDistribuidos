@@ -1,9 +1,9 @@
 //
-// Created by root on 22/08/19.
+// Created by Shado on 22/08/19.
 //
 
-#ifndef INC_4_COMPOSICION_EN_C___RECTANGULO_H
-#define INC_4_COMPOSICION_EN_C___RECTANGULO_H
+#ifndef PROYECTO1_SANTUARIO1_RECTANGULO_H
+#define PROYECTO1_SANTUARIO1_RECTANGULO_H
 
 #include "Coordenada.h"
 
@@ -20,4 +20,4 @@ public:
     Coordenada obtieneSupIzq();
     Coordenada obtieneInfDer();
 };
-#endif //INC_4_COMPOSICION_EN_C___RECTANGULO_H
+#endif //PROYECTO1_SANTUARIO1_RECTANGULO_H

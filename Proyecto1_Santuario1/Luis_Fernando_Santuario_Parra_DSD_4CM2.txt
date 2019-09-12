@@ -1,0 +1,594 @@
+//
+// Created by Shado on 01/09/2019.
+//
+
+#ifndef PROYECTO1_SANTUARIO1_PROYECTO_H
+#define PROYECTO1_SANTUARIO1_PROYECTO_H
+class Proyecto{
+public:
+ double RaizCuadrada(double n); //raiz cuadrada babilonica
+ double AlturaEdificio(double segundos); //Altura del edificio, tiempo en segundos y salida metros;
+ void ConvertirSegundos(double segundos);//Convertir horas:min:seg
+
+private:
+    const double GRAVEDAD = 9.81;
+    const int HORA = 3600;
+    const int MINUTO = 60;
+};
+#endif //PROYECTO1_SANTUARIO1_PROYECTO_H
+----------------------------------------------------------------------------------------
+//
+// Created by Shado on 01/09/2019.
+//
+#include "proyecto.h"
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+double Proyecto::RaizCuadrada(double n) {
+    double r = n;
+    double h = 0.0;
+    do {
+        h = r;
+        if (r > 0) {
+            r= ((n/r)+r)*.5;
+            r = round( r*10000)/10000;
+        } else {
+            break;
+        }
+    } while (h != r);
+
+    return r;
+}
+
+double Proyecto::AlturaEdificio(double segundos) {
+    double  altura = 0;
+    altura = (GRAVEDAD*.5)*pow(segundos,2.0);
+    return altura ;
+}
+
+void Proyecto::ConvertirSegundos(double segundos) {
+    int  horas,minutos;
+    horas = segundos/HORA;
+    minutos = ((segundos-horas*HORA)/MINUTO);
+    segundos = segundos-(horas*HORA+minutos*MINUTO);
+    cout<<horas<<"h:"<<minutos<<"m:"<<segundos<<"s"<<endl;
+}
+----------------------------------------------------------------------------------------
+#include <iostream>
+#include <iomanip>
+#include "proyecto.h"
+using namespace std;
+
+int main() {
+    //Ejercicios 1, 2, 3
+    double  n,i,c;
+    Proyecto p;
+    cout<<"Introduzca el numero a sacar la raiz: "<<endl;
+    cin>>n;
+    cout << "La raiz de "<<n<<" es igual a : "<<p.RaizCuadrada(n) <<endl;
+
+    cout<<"Introduzca el tiempo en segundos : "<<endl;
+    cin>>i;
+    cout << "La altura es igual a : "<<p.AlturaEdificio(i) <<"m"<<endl;
+
+    cout<<"Introduzca el tiempo en segundos a convertir: "<<endl;
+    cin>>c;
+    p.ConvertirSegundos(c);
+}
+****************************************************************************************
+//
+// Created by Shado on 02/09/2019.
+//
+
+#ifndef PROYECTO1_SANTUARIO1_TEMPERATURA_H
+#define PROYECTO1_SANTUARIO1_TEMPERATURA_H
+
+#include <iostream>
+
+using namespace std;
+
+class Temperatura {
+private:
+    double kelvin = 0;
+public:
+    Temperatura() {}
+
+    Temperatura(double tempKelvin) : kelvin(tempKelvin) {}
+
+    void setTempKelvin(double tempKelvin);
+
+    void setTempCelsius(double tempCelsius);
+
+    void setTempFahrenheit(double tempFahrenheit);
+
+    void printTempKelvin();
+
+    void printCelsius();
+
+    void printTempFahrenheit();
+
+};
+
+#endif //PROYECTO1_SANTUARIO1_TEMPERATURA_H
+----------------------------------------------------------------------------------------
+// Created by Shado on 02/09/2019.
+//
+#include "temperatura.h"
+#include <iostream>
+
+using namespace std;
+
+
+void Temperatura::setTempKelvin(double tempKelvin) {
+    this->kelvin = tempKelvin;
+}
+
+void Temperatura::setTempCelsius(double tempCelsius) {
+    this->kelvin = 273.15 + tempCelsius;
+}
+
+void Temperatura::setTempFahrenheit(double tempFahrenheit) {
+    this->kelvin = (tempFahrenheit - 32)/1.8000 + 273.15;
+}
+
+void Temperatura::printTempKelvin() {
+    cout << "La temperatura en K es :" << kelvin << endl;
+}
+
+void Temperatura::printCelsius() {
+    cout << "La temperatura en C es :" << kelvin - 273.15 << endl;
+}
+
+void Temperatura::printTempFahrenheit() {
+    cout << "La temperatura en F es :" <<(kelvin - 273.15)*1.8000 + 32.0<< endl;
+}
+----------------------------------------------------------------------------------------
+//
+// Created by Shado on 02/09/2019.
+//
+
+#ifndef PROYECTO1_SANTUARIO1_FRACCION_H
+#define PROYECTO1_SANTUARIO1_FRACCION_H
+
+class Fraccion {
+private:
+    int numerador=0;
+    int denominador=1;
+public:
+    Fraccion(){} ;
+
+    Fraccion(int numerador, int denominador):numerador(numerador),denominador(denominador){};
+
+    double printResultado();
+
+    void printFraccionReducida();
+
+};
+
+#endif //PROYECTO1_SANTUARIO1_FRACCION_H
+----------------------------------------------------------------------------------------
+//
+// Created by Shado on 02/09/2019.
+//
+
+#include <iostream>
+#include <cmath>
+#include "Fraccion.h"
+using namespace std;
+
+double Fraccion::printResultado() {
+    if (denominador!=0) {
+        return round((numerador / denominador)*1000) /1000;
+    }else {
+        cout << "No se puede divir entre cero" << endl;
+        return -1;
+    }
+}
+void Fraccion::printFraccionReducida() {
+    int mod =2;
+    if(denominador!=1 && denominador>0){
+        do{
+            if(numerador%mod==0 && denominador%mod==0){
+                numerador/=mod;
+                denominador/=mod;
+            }else
+            {
+                mod++;
+            }
+        }
+        while(mod<=numerador);
+        cout<<numerador<<"/"<<denominador<<endl;
+    }else{
+        cout<<numerador<<"/"<<denominador<<endl;
+    }
+}
+----------------------------------------------------------------------------------------
+#include <iostream>
+#include <iomanip>
+#include "temperatura.h"
+#include "Fraccion.h"
+using namespace std;
+
+int main() {
+//Ejercicios 4, 5
+    Temperatura t;
+    int opcion=0;
+    double temperatura = 0;
+    while(true){
+        cout<< "Ingrese 1 si desea introducir temperatura o 2 si desea consultar una temperatura ya almacenada y 3 si desea salir" << endl;
+        cin >> opcion;
+
+        switch (opcion){
+            case 1:
+                cout<< "Ingrese 1 si desea introducir K, 2 si desea introducir C y 3 si desea introducir F seguido de la temperatura separados por un espacio"<< endl;
+                cin >> opcion >> temperatura;
+                switch (opcion) {
+                    case 1:
+                        t.setTempKelvin(temperatura);
+                        break;
+                    case 2:
+                        t.setTempCelsius(temperatura);
+                        break;
+                    case 3:
+                        t.setTempFahrenheit(temperatura);
+                        break;
+                }
+                break;
+            case 2:
+                cout << "Ingrese 1 si desea obtener el valor almacenado de la temperatura en K, 2 en C y 3 en F" << endl;
+                cin >> opcion;
+                switch (opcion) {
+                    case 1:
+                        t.printTempKelvin();
+                        break;
+                    case 2:
+                        t.printCelsius();
+                        break;
+                    case 3:
+                        t.printTempFahrenheit();
+                        break;
+                }
+                break;
+            case 3:
+                exit(0);
+                break;
+
+        }
+    }
+
+   Fraccion f (18,15);
+   f.printFraccionReducida();
+   cout<<f.printResultado()<<endl;
+}
+****************************************************************************************
+//
+// Created by Shado on 22/08/19.
+//
+
+#ifndef PROYECTO1_SANTUARIO1__COORDENADA_H
+#define PROYECTO1_SANTUARIO1__COORDENADA_H
+class Coordenada{
+public:
+    Coordenada(double = 0, double=0, double=0);
+    double obtenerX();
+    double obtenerY();
+    double obtenerZ();
+
+private:
+    double y,x,z;
+};
+#endif //PROYECTO1_SANTUARIO1__COORDENADA_H
+----------------------------------------------------------------------------------------
+//
+// Created by Shado on 22/08/19.
+//
+
+#include <iostream>
+#include "cmath"
+#include "Coordenada.h"
+using namespace std;
+
+Coordenada::Coordenada(double xx, double yy, double zz):x(xx),y(yy),z(zz) {}
+//Coordenada::Coordenada(double r, double O):x(r*cos(O)),y(r*sin(O)){}
+double Coordenada::obtenerX() {
+    return x;
+}
+double Coordenada::obtenerY() {
+    return y;
+}
+double Coordenada::obtenerZ() {
+    return z;
+}
+----------------------------------------------------------------------------------------
+//
+// Created by Shado on 22/08/19.
+//
+
+#ifndef PROYECTO1_SANTUARIO1_RECTANGULO_H
+#define PROYECTO1_SANTUARIO1_RECTANGULO_H
+
+#include "Coordenada.h"
+
+class Rectangulo{
+private:
+    Coordenada superiorIzq;
+    Coordenada inferiorDer;
+public:
+    Rectangulo();
+    Rectangulo(double xSupIzq, double ySupIzq, double xInfDer, double yInfDer);
+    Rectangulo(Coordenada coordenadaIzq,Coordenada coordenadaDer);
+    void imprimeEsq();
+    double obtenerArea();
+    Coordenada obtieneSupIzq();
+    Coordenada obtieneInfDer();
+};
+#endif //PROYECTO1_SANTUARIO1_RECTANGULO_H
+----------------------------------------------------------------------------------------
+//
+// Created by Shado on 22/08/19.
+//
+#include <iostream>
+#include "Rectangulo.h"
+
+using namespace std;
+Rectangulo::Rectangulo():superiorIzq(0,0),inferiorDer(0,0) {}
+Rectangulo::Rectangulo(double xSupIzq, double ySupIzq, double xInfDer, double yInfDer):superiorIzq(xSupIzq,ySupIzq),inferiorDer(xInfDer,yInfDer) {}
+Rectangulo::Rectangulo(Coordenada coordenadaIzq,Coordenada coordenadaDer) {
+    inferiorDer = coordenadaDer;
+    superiorIzq = coordenadaIzq;
+}
+void Rectangulo::imprimeEsq() {
+    cout << "Para la esquina superior izquierda.\n";
+    cout << "x = " << superiorIzq.obtenerX() << " y = " << superiorIzq.obtenerY() << endl;
+    cout << "Para la esquina inferior derecha.\n";
+    cout << "x = " << inferiorDer.obtenerX() << " y = " << inferiorDer.obtenerY() << endl;
+}
+double Rectangulo::obtenerArea(){
+    double alto,ancho,area;
+    alto = obtieneSupIzq().obtenerY() - obtieneInfDer().obtenerY();
+    ancho = obtieneInfDer().obtenerX() - obtieneSupIzq().obtenerX();
+    area=alto*ancho;
+    return area;
+}
+Coordenada Rectangulo::obtieneSupIzq() {
+    return superiorIzq;
+}
+Coordenada Rectangulo::obtieneInfDer() {
+    return inferiorDer;
+}
+----------------------------------------------------------------------------------------
+//
+// Created by Shado on 12/09/2019.
+//
+
+#ifndef PROYECTO1_SANTUARIO1_ORTOEDRO_H
+#define PROYECTO1_SANTUARIO1_ORTOEDRO_H
+
+#include "Coordenada.h"
+#include "Rectangulo.h"
+
+class Ortoedro {
+private:
+    Coordenada superiorIzq;
+    Coordenada inferiorDer;
+public:
+    Ortoedro();
+    Ortoedro(Coordenada supI, Coordenada infD);
+    void obtieneVertices();
+    double obtieneArea();
+    double obtieneVolumen();
+    Coordenada obtieneSupIzq();
+    Coordenada obtieneInfDer();
+
+
+
+};
+
+#endif //PROYECTO1_SANTUARIO1_ORTOEDRO_H
+----------------------------------------------------------------------------------------
+//
+// Created by Shado on 12/09/2019.
+//
+#include <iostream>
+#include "Rectangulo.h"
+#include "Coordenada.h"
+#include "Ortoedro.h"
+
+using namespace std;
+Coordenada Ortoedro::obtieneSupIzq()
+{
+    return superiorIzq;
+}
+
+Coordenada Ortoedro::obtieneInfDer()
+{
+    return inferiorDer;
+}
+Ortoedro::Ortoedro() : superiorIzq(0,0,0), inferiorDer(0,0,0)
+{}
+Ortoedro::Ortoedro(Coordenada supI,Coordenada infD) : superiorIzq(supI), inferiorDer(infD)
+{}
+void Ortoedro::obtieneVertices(){
+    cout<<"("<< superiorIzq.obtenerX()<<","<<superiorIzq.obtenerY()<<","<< superiorIzq.obtenerZ()<<")"<<endl; //todas superior izquierda
+    cout<<"("<< inferiorDer.obtenerX()<<","<<superiorIzq.obtenerY()<<","<< superiorIzq.obtenerZ()<<")"<<endl;
+    cout<<"("<< superiorIzq.obtenerX()<<","<<inferiorDer.obtenerY()<<","<< superiorIzq.obtenerZ()<<")"<<endl;
+    cout<<"("<< superiorIzq.obtenerX()<<","<<superiorIzq.obtenerY()<<","<< inferiorDer.obtenerZ()<<")"<<endl;
+    cout<<"("<< inferiorDer.obtenerX()<<","<<inferiorDer.obtenerY()<<","<< inferiorDer.obtenerZ()<<")"<<endl;//todas inferor derecha
+    cout<<"("<< superiorIzq.obtenerX()<<","<<inferiorDer.obtenerY()<<","<< inferiorDer.obtenerZ()<<")"<<endl;
+    cout<<"("<< inferiorDer.obtenerX()<<","<<superiorIzq.obtenerY()<<","<< inferiorDer.obtenerZ()<<")"<<endl;
+    cout<<"("<< inferiorDer.obtenerX()<<","<<inferiorDer.obtenerY()<<","<< superiorIzq.obtenerZ()<<")"<<endl;
+
+}
+double Ortoedro::obtieneArea(){
+    double alto,ancho,profundo,area;
+    alto = superiorIzq.obtenerY()-inferiorDer.obtenerY();
+    ancho =inferiorDer.obtenerX()-superiorIzq.obtenerX();
+    profundo = inferiorDer.obtenerZ()-superiorIzq.obtenerZ();
+    area=(2*alto*ancho)+(2*alto*profundo)+(2*profundo*ancho);
+    return area;
+}
+double Ortoedro::obtieneVolumen(){
+    double alto,ancho,profundo,volumen;
+    alto = superiorIzq.obtenerY()-inferiorDer.obtenerY();
+    ancho =inferiorDer.obtenerX()-superiorIzq.obtenerX();
+    profundo = inferiorDer.obtenerZ()-superiorIzq.obtenerZ();
+    volumen = alto*ancho*profundo;
+    return volumen;
+}
+----------------------------------------------------------------------------------------
+#include <iostream>
+#include <iomanip>
+#include "Coordenada.h"
+#include "Rectangulo.h"
+#include "Ortoedro.h"
+using namespace std;
+
+int main() {
+//Ejercicio 6
+    Ortoedro ortoe1(Coordenada(1,7,2),Coordenada(15,2,9));
+    double ancho, alto;
+    cout << "Calculando el area y volumen de un ortoedro en un plano carteciano:\n";
+    ortoe1.obtieneVertices();
+    cout<<"Area = "<<ortoe1.obtieneArea()<<endl;
+    cout<<"Volumen = "<<ortoe1.obtieneVolumen()<<endl;
+
+****************************************************************************************
+//
+// Created by Shado on 12/09/2019.
+//
+
+#ifndef PROYECTO1_SANTUARIO1_CRIBA_H
+#define PROYECTO1_SANTUARIO1_CRIBA_H
+
+#include <vector>
+#include "Numero.h"
+
+using namespace std;
+
+class Criba {
+public:
+    Criba(int n) : numeros(n) {}
+
+    void llenarCriba();
+
+    void obtenerPrimos();
+
+    void imprimirCriba();
+
+    void imprimirPrimos();
+
+private:
+    int numeros;
+    vector<Numero> criba;
+};
+
+#endif //PROYECTO1_SANTUARIO1_CRIBA_H
+----------------------------------------------------------------------------------------
+//
+// Created by Shado on 12/09/2019.
+//
+#include <iostream>
+#include <cmath>
+#include "Criba.h"
+
+using namespace std;
+
+void Criba::llenarCriba() {
+    for (int i = 1; i <= numeros; i++) {
+        Numero numero(i, true);
+        criba.push_back(numero);
+    }
+}
+
+void Criba::imprimirCriba() {
+    for (int i = 0; i < criba.size(); i++) {
+        Numero a = criba[i];
+        cout << a.getNumero() << " - " << a.getPrimo() << ", ";
+    }
+}
+
+void Criba::obtenerPrimos() {
+    for (int i = 0; i < (int) sqrt(criba.size()); i++) {
+        Numero n = criba[i];
+        if (n.getNumero() == 1) {
+            n.setPrimo(false);
+            criba[i] = n;
+        } else {
+
+            for (int j = i + 1; j < criba.size(); j++) {
+                Numero primo = criba[j];
+                if ((primo.getPrimo() != false) && (primo.getNumero() % n.getNumero() == 0)) {
+                    primo.setPrimo(false);
+                    criba[j] = primo;
+                } else {
+                    continue;
+                }
+            }
+        }
+
+    }
+}
+
+void Criba::imprimirPrimos() {
+    cout << "\n ----PRIMOS----" << endl;
+    for (int i = 0; i < criba.size(); i++) {
+        Numero a = criba[i];
+        if (a.getPrimo() != false)
+            cout << a.getNumero() << ", ";
+    }
+}
+----------------------------------------------------------------------------------------
+//
+// Created by Shado on 12/09/2019.
+//
+
+#ifndef PROYECTO1_SANTUARIO1_NUMERO_H
+#define PROYECTO1_SANTUARIO1_NUMERO_H
+class Numero{
+public:
+    Numero(){};
+    Numero(int num, bool prim):numero(num),primo(prim){};
+    int getNumero();
+
+    bool getPrimo();
+
+    void setPrimo(bool primo);
+private:
+    int numero;
+    bool primo;
+};
+#endif //PROYECTO1_SANTUARIO1_NUMERO_H
+----------------------------------------------------------------------------------------
+//
+// Created by Shado on 12/09/2019.
+//
+#include <iostream>
+#include "Numero.h"
+
+
+int Numero::getNumero() {
+    return this->numero;
+}
+bool Numero::getPrimo() {
+    return this->primo;
+}
+void Numero::setPrimo(bool primo) {
+    this->primo = primo;
+}
+----------------------------------------------------------------------------------------
+#include <iostream>
+#include <iomanip>
+#include "Criba.h"
+using namespace std;
+
+int main() {
+//Ejercicio 7
+    int numeros=0;
+    cin>>numeros;
+    Criba criba (numeros);
+    criba.llenarCriba();
+    criba.imprimirCriba();
+    criba.obtenerPrimos();
+    criba.imprimirPrimos();

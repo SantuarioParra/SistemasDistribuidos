@@ -1,5 +1,5 @@
 //
-// Created by root on 22/08/19.
+// Created by Shado on 22/08/19.
 //
 #include <iostream>
 #include "Rectangulo.h"

@@ -1,9 +1,9 @@
 //
-// Created by root on 22/08/19.
+// Created by Shado on 22/08/19.
 //
 
-#ifndef INC_4_COMPOSICION_EN_C___COORDENADA_H
-#define INC_4_COMPOSICION_EN_C___COORDENADA_H
+#ifndef PROYECTO1_SANTUARIO1__COORDENADA_H
+#define PROYECTO1_SANTUARIO1__COORDENADA_H
 class Coordenada{
 public:
     Coordenada(double = 0, double=0, double=0);
@@ -14,4 +14,4 @@ public:
 private:
     double y,x,z;
 };
-#endif //INC_4_COMPOSICION_EN_C___COORDENADA_H
+#endif //PROYECTO1_SANTUARIO1__COORDENADA_H

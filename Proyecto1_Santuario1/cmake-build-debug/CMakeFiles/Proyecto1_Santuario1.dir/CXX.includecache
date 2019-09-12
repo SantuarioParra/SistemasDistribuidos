@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Coordenada.cpp
+iostream
+-
+cmath
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/cmath
+Coordenada.h
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Coordenada.h
+
 C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Coordenada.h
 
 C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Criba.h
@@ -18,9 +26,25 @@ C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Fra
 
 C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Numero.h
 
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Ortoedro.cpp
+iostream
+-
+Rectangulo.h
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Rectangulo.h
+Coordenada.h
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Coordenada.h
+Ortoedro.h
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Ortoedro.h
+
 C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Ortoedro.h
 Coordenada.h
 C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Coordenada.h
+Rectangulo.h
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Rectangulo.h
+
+C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Rectangulo.cpp
+iostream
+-
 Rectangulo.h
 C:/Users/Shado/OneDrive/Documentos/SistemasDistribuidos/Proyecto1_Santuario1/Rectangulo.h
 
