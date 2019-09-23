@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="9_Servidor_de_dominio_udp" targetName="9_Servidor_de_dominio_udp" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d423a358-a38c-4599-aac9-0b9831613a3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../10_cliente_UDP/programa9-1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8_threads_c++/usoDiscoDuro.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programa9-1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9_threads/DiscoDuro.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9_threads/DiscoDuro.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_threads_c++/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/8_threads_c__.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/8_threads_c__.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/Makefile" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/9_Servidor_de_dominio_udp.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1R3iBI5ipcC3D8FMWi8w8UDbP06" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="9_Servidor_de_dominio_udp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="9_Servidor_de_dominio_udp" TARGET_NAME="9_Servidor_de_dominio_udp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="9_Servidor_de_dominio_udp" RUN_TARGET_NAME="9_Servidor_de_dominio_udp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d423a358-a38c-4599-aac9-0b9831613a3f" name="Default Changelist" comment="" />
+      <created>1568902042194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568902042194</updated>
+      <workItem from="1568902044846" duration="2110000" />
+      <workItem from="1569246025027" duration="800000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
