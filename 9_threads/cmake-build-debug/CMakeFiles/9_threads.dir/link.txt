@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/9_threads.dir/main.cpp.o CMakeFiles/9_threads.dir/palabras.cpp.o CMakeFiles/9_threads.dir/DiscoDuro.cpp.o  -o 9_threads 

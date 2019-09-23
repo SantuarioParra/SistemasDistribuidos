@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/8_threads_c__.dir/build.make CMakeFiles/8_threads_c__.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+usoDiscoDuro.o: usoDiscoDuro.cpp.o
+
+.PHONY : usoDiscoDuro.o
+
+# target to build an object file
+usoDiscoDuro.cpp.o:
+	$(MAKE) -f CMakeFiles/8_threads_c__.dir/build.make CMakeFiles/8_threads_c__.dir/usoDiscoDuro.cpp.o
+.PHONY : usoDiscoDuro.cpp.o
+
+usoDiscoDuro.i: usoDiscoDuro.cpp.i
+
+.PHONY : usoDiscoDuro.i
+
+# target to preprocess a source file
+usoDiscoDuro.cpp.i:
+	$(MAKE) -f CMakeFiles/8_threads_c__.dir/build.make CMakeFiles/8_threads_c__.dir/usoDiscoDuro.cpp.i
+.PHONY : usoDiscoDuro.cpp.i
+
+usoDiscoDuro.s: usoDiscoDuro.cpp.s
+
+.PHONY : usoDiscoDuro.s
+
+# target to generate assembly for a file
+usoDiscoDuro.cpp.s:
+	$(MAKE) -f CMakeFiles/8_threads_c__.dir/build.make CMakeFiles/8_threads_c__.dir/usoDiscoDuro.cpp.s
+.PHONY : usoDiscoDuro.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... usoDiscoDuro.o"
+	@echo "... usoDiscoDuro.i"
+	@echo "... usoDiscoDuro.s"
 .PHONY : help
 
 

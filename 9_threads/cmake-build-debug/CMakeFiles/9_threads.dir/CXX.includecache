@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fernando/Documentos/SistemasDistribuidos/9_threads/DiscoDuro.cpp
+iostream
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+cstring
+-
+iostream
+-
+string.h
+-
+DiscoDuro.h
+/home/fernando/Documentos/SistemasDistribuidos/9_threads/DiscoDuro.h
+
+/home/fernando/Documentos/SistemasDistribuidos/9_threads/DiscoDuro.h
+iostream
+-
+
+/home/fernando/Documentos/SistemasDistribuidos/9_threads/main.cpp
+iostream
+-
+palabras.h
+/home/fernando/Documentos/SistemasDistribuidos/9_threads/palabras.h
+DiscoDuro.h
+/home/fernando/Documentos/SistemasDistribuidos/9_threads/DiscoDuro.h
+
+/home/fernando/Documentos/SistemasDistribuidos/9_threads/palabras.h
+iostream
+-
+string
+-
+

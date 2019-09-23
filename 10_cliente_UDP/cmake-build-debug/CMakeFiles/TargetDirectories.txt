@@ -1,0 +1,3 @@
+/home/fernando/Documentos/SistemasDistribuidos/10_cliente_UDP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fernando/Documentos/SistemasDistribuidos/10_cliente_UDP/cmake-build-debug/CMakeFiles/10_cliente_UDP.dir
+/home/fernando/Documentos/SistemasDistribuidos/10_cliente_UDP/cmake-build-debug/CMakeFiles/edit_cache.dir

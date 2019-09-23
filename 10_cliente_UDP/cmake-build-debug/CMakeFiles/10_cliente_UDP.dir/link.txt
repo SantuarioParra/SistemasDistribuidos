@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/10_cliente_UDP.dir/main.cpp.o CMakeFiles/10_cliente_UDP.dir/programa9-1.c.o CMakeFiles/10_cliente_UDP.dir/programa10-1.c.o  -o 10_cliente_UDP 

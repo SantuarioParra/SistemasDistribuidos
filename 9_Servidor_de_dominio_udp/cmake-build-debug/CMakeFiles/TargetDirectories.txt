@@ -1,0 +1,3 @@
+/home/fernando/Documentos/SistemasDistribuidos/9_Servidor_de_dominio_udp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fernando/Documentos/SistemasDistribuidos/9_Servidor_de_dominio_udp/cmake-build-debug/CMakeFiles/9_Servidor_de_dominio_udp.dir
+/home/fernando/Documentos/SistemasDistribuidos/9_Servidor_de_dominio_udp/cmake-build-debug/CMakeFiles/edit_cache.dir

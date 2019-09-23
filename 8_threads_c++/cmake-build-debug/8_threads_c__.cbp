@@ -93,6 +93,9 @@
 		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/8_threads_c++/main.cpp">
 			<Option target="8_threads_c__"/>
 		</Unit>
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/8_threads_c++/usoDiscoDuro.cpp">
+			<Option target="8_threads_c__"/>
+		</Unit>
 		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/8_threads_c++/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

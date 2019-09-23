@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/8_threads_c__.dir/Semaforo.cpp.o"
   "CMakeFiles/8_threads_c__.dir/main.cpp.o"
+  "CMakeFiles/8_threads_c__.dir/usoDiscoDuro.cpp.o"
   "8_threads_c__.pdb"
   "8_threads_c__"
 )

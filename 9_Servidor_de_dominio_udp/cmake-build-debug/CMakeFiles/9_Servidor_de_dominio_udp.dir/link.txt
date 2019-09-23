@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/9_Servidor_de_dominio_udp.dir/main.cpp.o CMakeFiles/9_Servidor_de_dominio_udp.dir/programa9-1.c.o  -o 9_Servidor_de_dominio_udp 

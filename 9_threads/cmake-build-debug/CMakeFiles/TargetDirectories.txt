@@ -1,0 +1,3 @@
+/home/fernando/Documentos/SistemasDistribuidos/9_threads/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fernando/Documentos/SistemasDistribuidos/9_threads/cmake-build-debug/CMakeFiles/9_threads.dir
+/home/fernando/Documentos/SistemasDistribuidos/9_threads/cmake-build-debug/CMakeFiles/edit_cache.dir
