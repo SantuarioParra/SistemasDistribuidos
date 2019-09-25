@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/9_sockets_UDP.dir/main.cpp.o CMakeFiles/9_sockets_UDP.dir/PaqueteDatagrama.cpp.o CMakeFiles/9_sockets_UDP.dir/SocketDatagrama.cpp.o  -o 9_sockets_UDP 

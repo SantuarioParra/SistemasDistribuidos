@@ -19,7 +19,8 @@ int main(int arg, char * argv[]) {
     /* rellena la dirección del servidor */
     bzero((char *) &msg_to_server_addr, sizeof(msg_to_server_addr));
     msg_to_server_addr.sin_family = AF_INET;
-    msg_to_server_addr.sin_addr.s_addr = inet_addr(argv[1]);
+    msg_to_server_addr.sin_addr.s_addr = inet_addr("10.100.77.82");
+    printf("%d",argv[1]);
 
     msg_to_server_addr.sin_port = htons(puerto);
 
