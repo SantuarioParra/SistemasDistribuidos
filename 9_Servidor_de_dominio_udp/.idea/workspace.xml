@@ -12,12 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d423a358-a38c-4599-aac9-0b9831613a3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../10_cliente_UDP/programa9-1.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_cliente_UDP/programa9-1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/PaqueteDatagrama.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/PaqueteDatagrama.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/PaqueteDatagrama.h" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/PaqueteDatagrama.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/SocketDatagrama.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/SocketDatagrama.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/SocketDatagrama.h" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/SocketDatagrama.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
