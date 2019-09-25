@@ -7,9 +7,11 @@
 
 class PaqueteDatagrama {
 public:
-    PaqueteDatagrama(char *, unsigned int, char *, int);
+    PaqueteDatagrama(char * DATOS, unsigned int LONGITUD, char * IP, int PUERTO);
 
-    PaqueteDatagrama(unsigned int);
+    PaqueteDatagrama(unsigned int LONGITUD);
+
+    PaqueteDatagrama(){}
 
     ~PaqueteDatagrama();
 
@@ -29,7 +31,7 @@ public:
 
 private:
     char *datos; //Almacena los datos
-    char ip[16]; //Almacena la IP
+    char *ip; //Almacena la IP
     unsigned int longitud; //Almacena la longitude de la cadena de datos
     int puerto; //Almacena el puerto
 };

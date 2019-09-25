@@ -17,7 +17,6 @@ int main(void) {
     struct sockaddr_in server_addr, msg_to_client_addr;
 
     s = socket(AF_INET, SOCK_DGRAM, 0);
-
     //se asigna una direccion al socket del servidor
 
     bzero((char *) &server_addr, sizeof(server_addr));

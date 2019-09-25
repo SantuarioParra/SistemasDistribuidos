@@ -12,21 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d423a358-a38c-4599-aac9-0b9831613a3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../10_cliente_UDP/programa9-1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8_threads_c++/usoDiscoDuro.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programa9-1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../9_threads/DiscoDuro.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../9_threads/DiscoDuro.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8_threads_c++/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/8_threads_c__.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/8_threads_c__.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/8_threads_c__.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../8_threads_c++/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_cliente_UDP/programa9-1.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_cliente_UDP/programa9-1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/PaqueteDatagrama.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/PaqueteDatagrama.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/PaqueteDatagrama.h" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/PaqueteDatagrama.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/SocketDatagrama.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/SocketDatagrama.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/SocketDatagrama.h" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/SocketDatagrama.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +46,7 @@
   <component name="ProjectId" id="1R3iBI5ipcC3D8FMWi8w8UDbP06" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -94,6 +86,7 @@
       <updated>1568902042194</updated>
       <workItem from="1568902044846" duration="2110000" />
       <workItem from="1569246025027" duration="800000" />
+      <workItem from="1569420156162" duration="1887000" />
     </task>
     <servers />
   </component>
