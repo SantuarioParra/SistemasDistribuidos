@@ -1,0 +1,6 @@
+main: main.cpp SocketDatagrama.o
+	g++ main.cpp PaqueteDatagrama.o  SocketDatagrama.o -o main
+SocketDatagrama.o: SocketDatagrama.cpp PaqueteDatagrama.o SocketDatagrama.h
+	g++ SocketDatagrama.cpp -c
+PaqueteDatagrama.o: PaqueteDatagrama.cpp PaqueteDatagrama.h
+	g++ PaqueteDatagrama.cpp -c 

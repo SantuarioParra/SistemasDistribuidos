@@ -1,6 +1,14 @@
 #include <iostream>
+#include <sys/socket.h>
+#include "PaqueteDatagrama.h"
+#include "SocketDatagrama.h"
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    PaqueteDatagrama paquetazo;
+    paquetazo.inicializaIp((char *)"10.100.79.33");
+    paquetazo.inicializaDatos((char*)"Holas");
+    paquetazo.inicializaPuerto(7200);
+    SocketDatagrama socketServidor;
+    socketServidor.recibe(paquetazo);
 }

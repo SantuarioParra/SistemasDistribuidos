@@ -1,10 +1,10 @@
 //
 // Created by fernando on 25/09/19.
 //
+#include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include "SocketDatagrama.h"
-#include "PaqueteDatagrama.h"
 
 SocketDatagrama::SocketDatagrama(int PUERTO) {
     s=socket(AF_INET,SOCK_DGRAM,0);

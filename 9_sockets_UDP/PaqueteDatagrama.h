@@ -4,7 +4,6 @@
 
 #ifndef INC_9_SOCKETS_UDP_PAQUETEDATAGRAMA_H
 #define INC_9_SOCKETS_UDP_PAQUETEDATAGRAMA_H
-
 class PaqueteDatagrama {
 public:
     PaqueteDatagrama(char * DATOS, unsigned int LONGITUD, char * IP, int PUERTO);

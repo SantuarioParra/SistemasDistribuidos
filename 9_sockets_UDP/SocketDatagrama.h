@@ -1,10 +1,9 @@
 //
 // Created by fernando on 25/09/19.
 //
-
 #ifndef INC_9_SOCKETS_UDP_SOCKETDATAGRAMA_H
 #define INC_9_SOCKETS_UDP_SOCKETDATAGRAMA_H
-
+#include <sys/socket.h>
 #include "PaqueteDatagrama.h"
 
 class SocketDatagrama {
@@ -25,4 +24,6 @@ private:
     int s; //ID socket
 };
 
+
 #endif //INC_9_SOCKETS_UDP_SOCKETDATAGRAMA_H
+
