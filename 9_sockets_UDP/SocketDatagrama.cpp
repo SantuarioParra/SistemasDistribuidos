@@ -8,19 +8,20 @@
 
 SocketDatagrama::SocketDatagrama(int PUERTO) {
     s=socket(AF_INET,SOCK_DGRAM,0);
-    direccionForanea.sin_family = AF_INET;
-    direccionForanea.sin_port = htons(PUERTO);
-    direccionForanea.sin_addr.s_addr = htons(INADDR_ANY);
-    direccionLocal.sin_addr.s_addr = htons(INADDR_ANY);
-    bind(s,(struct sockaddr *) &direccionForanea, sizeof(direccionForanea));
+    direccionLocal.sin_family = AF_INET;
+    direccionLocal.sin_port = htons(PUERTO);
+    direccionLocal.sin_addr.s_addr =INADDR_ANY;
+    bind(s,(struct sockaddr *) &direccionLocal, sizeof(direccionLocal));
 }
 int SocketDatagrama::envia(PaqueteDatagrama &p) {
-    sendto(s,p.obtieneDatos(),p.obtieneLongitud(),0,(struct sockaddr *)&direccionForanea, sizeof(direccionForanea));
-    recvfrom(s, (char *) &res, sizeof(int), 0, NULL, NULL);
+    direccionForanea.sin_addr.s_addr= inet_addr(p.obtieneDireccion());
+    return sendto(s,p.obtieneDatos(),p.obtieneLongitud(),0,(struct sockaddr *)&direccionForanea, sizeof(direccionForanea));
 
 }
 int SocketDatagrama::recibe(PaqueteDatagrama &p) {
-    recvfrom(s, );
+    unsigned int lforanea= sizeof(direccionForanea);
+    return  recvfrom(s, p.obtieneDatos(),p.obtieneLongitud(),0,(struct sockaddr *)&direccionForanea, &lforanea);
+
 }
 SocketDatagrama::~SocketDatagrama() {
 }
