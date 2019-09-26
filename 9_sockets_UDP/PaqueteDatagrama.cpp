@@ -3,7 +3,6 @@
 //
 
 #include <cstring>
-#include <sys/socket.h>
 #include "PaqueteDatagrama.h"
 
 PaqueteDatagrama::PaqueteDatagrama(char *DATOS, unsigned int LONGITUD, char *IP, int PUERTO) {

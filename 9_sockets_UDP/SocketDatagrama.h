@@ -3,6 +3,7 @@
 //
 #ifndef INC_9_SOCKETS_UDP_SOCKETDATAGRAMA_H
 #define INC_9_SOCKETS_UDP_SOCKETDATAGRAMA_H
+#include <netinet/in.h>
 #include <sys/socket.h>
 #include "PaqueteDatagrama.h"
 

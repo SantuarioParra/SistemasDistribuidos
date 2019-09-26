@@ -1,5 +1,4 @@
 #include <iostream>
-#include <sys/socket.h>
 #include "PaqueteDatagrama.h"
 #include "SocketDatagrama.h"
 using namespace std;
@@ -10,5 +9,6 @@ int main() {
     paquetazo.inicializaDatos((char*)"Holas");
     paquetazo.inicializaPuerto(7200);
     SocketDatagrama socketServidor;
-    socketServidor.recibe(paquetazo);
+        socketServidor.recibe(paquetazo);
+
 }

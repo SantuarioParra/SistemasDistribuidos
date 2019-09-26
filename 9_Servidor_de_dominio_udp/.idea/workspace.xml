@@ -12,12 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d423a358-a38c-4599-aac9-0b9831613a3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/PaqueteDatagrama.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/PaqueteDatagrama.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/PaqueteDatagrama.h" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/PaqueteDatagrama.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/SocketDatagrama.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/SocketDatagrama.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/SocketDatagrama.h" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/SocketDatagrama.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/cmake-build-debug/CMakeFiles/9_sockets_UDP.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/cmake-build-debug/CMakeFiles/9_sockets_UDP.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/cmake-build-debug/CMakeFiles/9_sockets_UDP.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/cmake-build-debug/CMakeFiles/9_sockets_UDP.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/cmake-build-debug/CMakeFiles/9_sockets_UDP.dir/PaqueteDatagrama.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/cmake-build-debug/CMakeFiles/9_sockets_UDP.dir/PaqueteDatagrama.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/cmake-build-debug/CMakeFiles/9_sockets_UDP.dir/SocketDatagrama.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/cmake-build-debug/CMakeFiles/9_sockets_UDP.dir/SocketDatagrama.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../9_sockets_UDP/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../9_sockets_UDP/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

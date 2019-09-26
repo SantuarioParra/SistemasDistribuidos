@@ -6,27 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/fernando/Documentos/SistemasDistribuidos/9_sockets_UDP/PaqueteDatagrama.cpp
-cstring
--
-sys/socket.h
--
-PaqueteDatagrama.h
 /home/fernando/Documentos/SistemasDistribuidos/9_sockets_UDP/PaqueteDatagrama.h
-
-/home/fernando/Documentos/SistemasDistribuidos/9_sockets_UDP/PaqueteDatagrama.h
-
-/home/fernando/Documentos/SistemasDistribuidos/9_sockets_UDP/SocketDatagrama.cpp
-sys/socket.h
--
 netinet/in.h
 -
-arpa/inet.h
+sys/socket.h
 -
-SocketDatagrama.h
-/home/fernando/Documentos/SistemasDistribuidos/9_sockets_UDP/SocketDatagrama.h
 
 /home/fernando/Documentos/SistemasDistribuidos/9_sockets_UDP/SocketDatagrama.h
+netinet/in.h
+-
 sys/socket.h
 -
 PaqueteDatagrama.h
@@ -34,8 +22,6 @@ PaqueteDatagrama.h
 
 /home/fernando/Documentos/SistemasDistribuidos/9_sockets_UDP/main.cpp
 iostream
--
-sys/socket.h
 -
 PaqueteDatagrama.h
 /home/fernando/Documentos/SistemasDistribuidos/9_sockets_UDP/PaqueteDatagrama.h
