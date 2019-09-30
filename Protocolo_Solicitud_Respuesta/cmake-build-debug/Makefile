@@ -150,6 +150,33 @@ PaqueteDatagrama.cpp.s:
 	$(MAKE) -f CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make CMakeFiles/Protocolo_Solicitud_Respuesta.dir/PaqueteDatagrama.cpp.s
 .PHONY : PaqueteDatagrama.cpp.s
 
+Respuesta.o: Respuesta.cpp.o
+
+.PHONY : Respuesta.o
+
+# target to build an object file
+Respuesta.cpp.o:
+	$(MAKE) -f CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Respuesta.cpp.o
+.PHONY : Respuesta.cpp.o
+
+Respuesta.i: Respuesta.cpp.i
+
+.PHONY : Respuesta.i
+
+# target to preprocess a source file
+Respuesta.cpp.i:
+	$(MAKE) -f CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Respuesta.cpp.i
+.PHONY : Respuesta.cpp.i
+
+Respuesta.s: Respuesta.cpp.s
+
+.PHONY : Respuesta.s
+
+# target to generate assembly for a file
+Respuesta.cpp.s:
+	$(MAKE) -f CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Respuesta.cpp.s
+.PHONY : Respuesta.cpp.s
+
 SocketDatagrama.o: SocketDatagrama.cpp.o
 
 .PHONY : SocketDatagrama.o
@@ -243,6 +270,9 @@ help:
 	@echo "... PaqueteDatagrama.o"
 	@echo "... PaqueteDatagrama.i"
 	@echo "... PaqueteDatagrama.s"
+	@echo "... Respuesta.o"
+	@echo "... Respuesta.i"
+	@echo "... Respuesta.s"
 	@echo "... SocketDatagrama.o"
 	@echo "... SocketDatagrama.i"
 	@echo "... SocketDatagrama.s"

@@ -6,6 +6,7 @@
 #define PROTOCOLO_SOLICITUD_RESPUESTA_SOLICITUD_H
 
 #include "SocketDatagrama.h"
+#include "mensaje.h"
 
 class Solicitud{
 public:
@@ -14,5 +15,6 @@ public:
 
 private:
     SocketDatagrama *socketLocal;
+    struct mensaje message;
 };
 #endif //PROTOCOLO_SOLICITUD_RESPUESTA_SOLICITUD_H

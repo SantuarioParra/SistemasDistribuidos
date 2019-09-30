@@ -90,6 +90,12 @@
 		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/PaqueteDatagrama.h">
 			<Option target="Protocolo_Solicitud_Respuesta"/>
 		</Unit>
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Respuesta.cpp">
+			<Option target="Protocolo_Solicitud_Respuesta"/>
+		</Unit>
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Respuesta.h">
+			<Option target="Protocolo_Solicitud_Respuesta"/>
+		</Unit>
 		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/SocketDatagrama.cpp">
 			<Option target="Protocolo_Solicitud_Respuesta"/>
 		</Unit>

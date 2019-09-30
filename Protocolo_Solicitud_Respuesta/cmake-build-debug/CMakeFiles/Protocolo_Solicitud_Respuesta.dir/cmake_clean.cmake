@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Solicitud.cpp.o"
   "CMakeFiles/Protocolo_Solicitud_Respuesta.dir/SocketDatagrama.cpp.o"
   "CMakeFiles/Protocolo_Solicitud_Respuesta.dir/PaqueteDatagrama.cpp.o"
+  "CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Respuesta.cpp.o"
   "Protocolo_Solicitud_Respuesta.pdb"
   "Protocolo_Solicitud_Respuesta"
 )
