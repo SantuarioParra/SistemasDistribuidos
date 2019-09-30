@@ -1,0 +1,3 @@
+/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles/Protocolo_Solicitud_Respuesta.dir
+/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles/edit_cache.dir
