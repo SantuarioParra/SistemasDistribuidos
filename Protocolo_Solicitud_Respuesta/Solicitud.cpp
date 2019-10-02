@@ -14,5 +14,7 @@ char* Solicitud::doOperation(char *IP, int Puerto, int operationId, char *argume
     message.menssageType = 0;
     PaqueteDatagrama paqueteDatagrama ((char*)&message, sizeof(arguments),IP,Puerto);
     socketLocal->envia(paqueteDatagrama);
+    socketLocal->recibe(paqueteDatagrama);
+    return paqueteDatagrama.obtieneDatos();
 }
 

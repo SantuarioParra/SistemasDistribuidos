@@ -14,11 +14,12 @@ Respuesta::Respuesta(int pl) {
 struct mensaje *Respuesta::getRequest() {
     PaqueteDatagrama paqueteDatagrama(sizeof(struct mensaje));
     socketlocal->recibe(paqueteDatagrama);
-    memcpy(response.arguments,paqueteDatagrama.obtieneDatos(),paqueteDatagrama.obtieneLongitud());
-    response.menssageType=1;
+    memcpy(response.arguments, paqueteDatagrama.obtieneDatos(), sizeof(struct mensaje));
     return &response;
 }
 
-void Respuesta::sendReply(char *respuesta) {
-    response = getRequest();
+void Respuesta::sendReply(char *respuesta, char *IP, int PUERTO) {//respuesta de la operacion
+    memcpy(response.arguments, respuesta, sizeof(struct mensaje));
+    PaqueteDatagrama paqueteDatagrama((char *) &response, sizeof(struct mensaje), IP, PUERTO);
+    socketlocal->envia(paqueteDatagrama);
 }
