@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Cliente.cpp">
+			<Option target="Protocolo_Solicitud_Respuesta"/>
+		</Unit>
 		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/PaqueteDatagrama.cpp">
 			<Option target="Protocolo_Solicitud_Respuesta"/>
 		</Unit>
@@ -94,6 +97,9 @@
 			<Option target="Protocolo_Solicitud_Respuesta"/>
 		</Unit>
 		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Respuesta.h">
+			<Option target="Protocolo_Solicitud_Respuesta"/>
+		</Unit>
+		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Servidor.cpp">
 			<Option target="Protocolo_Solicitud_Respuesta"/>
 		</Unit>
 		<Unit filename="/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/SocketDatagrama.cpp">

@@ -3,4 +3,4 @@ project(Protocolo_Solicitud_Respuesta)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Protocolo_Solicitud_Respuesta main.cpp mensaje.h Solicitud.h Solicitud.cpp SocketDatagrama.cpp SocketDatagrama.h PaqueteDatagrama.cpp PaqueteDatagrama.h Respuesta.cpp Respuesta.h)
+add_executable(Protocolo_Solicitud_Respuesta main.cpp mensaje.h Solicitud.h Solicitud.cpp SocketDatagrama.cpp SocketDatagrama.h PaqueteDatagrama.cpp PaqueteDatagrama.h Respuesta.cpp Respuesta.h Cliente.cpp Servidor.cpp)

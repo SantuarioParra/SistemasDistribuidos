@@ -123,6 +123,33 @@ Protocolo_Solicitud_Respuesta/fast:
 	$(MAKE) -f CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build
 .PHONY : Protocolo_Solicitud_Respuesta/fast
 
+Cliente.o: Cliente.cpp.o
+
+.PHONY : Cliente.o
+
+# target to build an object file
+Cliente.cpp.o:
+	$(MAKE) -f CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.o
+.PHONY : Cliente.cpp.o
+
+Cliente.i: Cliente.cpp.i
+
+.PHONY : Cliente.i
+
+# target to preprocess a source file
+Cliente.cpp.i:
+	$(MAKE) -f CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.i
+.PHONY : Cliente.cpp.i
+
+Cliente.s: Cliente.cpp.s
+
+.PHONY : Cliente.s
+
+# target to generate assembly for a file
+Cliente.cpp.s:
+	$(MAKE) -f CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.s
+.PHONY : Cliente.cpp.s
+
 PaqueteDatagrama.o: PaqueteDatagrama.cpp.o
 
 .PHONY : PaqueteDatagrama.o
@@ -176,6 +203,33 @@ Respuesta.s: Respuesta.cpp.s
 Respuesta.cpp.s:
 	$(MAKE) -f CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Respuesta.cpp.s
 .PHONY : Respuesta.cpp.s
+
+Servidor.o: Servidor.cpp.o
+
+.PHONY : Servidor.o
+
+# target to build an object file
+Servidor.cpp.o:
+	$(MAKE) -f CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.o
+.PHONY : Servidor.cpp.o
+
+Servidor.i: Servidor.cpp.i
+
+.PHONY : Servidor.i
+
+# target to preprocess a source file
+Servidor.cpp.i:
+	$(MAKE) -f CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.i
+.PHONY : Servidor.cpp.i
+
+Servidor.s: Servidor.cpp.s
+
+.PHONY : Servidor.s
+
+# target to generate assembly for a file
+Servidor.cpp.s:
+	$(MAKE) -f CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.s
+.PHONY : Servidor.cpp.s
 
 SocketDatagrama.o: SocketDatagrama.cpp.o
 
@@ -267,12 +321,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Protocolo_Solicitud_Respuesta"
 	@echo "... edit_cache"
+	@echo "... Cliente.o"
+	@echo "... Cliente.i"
+	@echo "... Cliente.s"
 	@echo "... PaqueteDatagrama.o"
 	@echo "... PaqueteDatagrama.i"
 	@echo "... PaqueteDatagrama.s"
 	@echo "... Respuesta.o"
 	@echo "... Respuesta.i"
 	@echo "... Respuesta.s"
+	@echo "... Servidor.o"
+	@echo "... Servidor.i"
+	@echo "... Servidor.s"
 	@echo "... SocketDatagrama.o"
 	@echo "... SocketDatagrama.i"
 	@echo "... SocketDatagrama.s"

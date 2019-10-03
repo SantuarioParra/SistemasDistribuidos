@@ -12,9 +12,9 @@ class Respuesta {
 public:
     Respuesta(int pl);
 
-    struct mensaje *getRequest(void);
+    struct mensaje *getRequest();
 
-    void sendReply(char *respuesta);
+    void sendReply(char *respuesta,char *IP, int PUERTO);
 
 private:
     SocketDatagrama *socketlocal;

@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Cliente.cpp" "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.o"
   "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/PaqueteDatagrama.cpp" "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles/Protocolo_Solicitud_Respuesta.dir/PaqueteDatagrama.cpp.o"
   "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Respuesta.cpp" "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Respuesta.cpp.o"
+  "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Servidor.cpp" "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.o"
   "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/SocketDatagrama.cpp" "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles/Protocolo_Solicitud_Respuesta.dir/SocketDatagrama.cpp.o"
   "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Solicitud.cpp" "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Solicitud.cpp.o"
   "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/main.cpp" "/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles/Protocolo_Solicitud_Respuesta.dir/main.cpp.o"

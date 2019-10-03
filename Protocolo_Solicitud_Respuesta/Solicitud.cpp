@@ -9,12 +9,13 @@ using namespace std;
 
 char* Solicitud::doOperation(char *IP, int Puerto, int operationId, char *arguments) {
     socketLocal = new SocketDatagrama(0);
-    memcpy(message.arguments,&arguments, sizeof(arguments));
+    memcpy(message.arguments,arguments, TAM_MAX_DATA);
     message.operationId = operationId;
     message.menssageType = 0;
-    PaqueteDatagrama paqueteDatagrama ((char*)&message, sizeof(arguments),IP,Puerto);
+    PaqueteDatagrama paqueteDatagrama ((char*)&message, sizeof(struct mensaje),IP,Puerto);
     socketLocal->envia(paqueteDatagrama);
     socketLocal->recibe(paqueteDatagrama);
-    return paqueteDatagrama.obtieneDatos();
+    memcpy(&message,(mensaje *)paqueteDatagrama.obtieneDatos(), TAM_MAX_DATA);
+    return message.arguments;
 }
 

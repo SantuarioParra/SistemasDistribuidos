@@ -4,6 +4,7 @@
 #include <iostream>
 #include <cstring>
 #include "Respuesta.h"
+#include "mensaje.h"
 
 using namespace std;
 
@@ -11,10 +12,11 @@ Respuesta::Respuesta(int pl) {
     socketlocal = new SocketDatagrama(pl);
 }
 
-struct mensaje *Respuesta::getRequest() {
-    PaqueteDatagrama paqueteDatagrama(sizeof(struct mensaje));
+struct mensaje * Respuesta::getRequest() {
+    PaqueteDatagrama paqueteDatagrama (sizeof(response));
     socketlocal->recibe(paqueteDatagrama);
-    memcpy(response.arguments, paqueteDatagrama.obtieneDatos(), sizeof(struct mensaje));
+    cout<<"Datos recibidos: "<<paqueteDatagrama.obtieneDatos()<<endl;
+    memcpy(&response.arguments, paqueteDatagrama.obtieneDatos(),TAM_MAX_DATA);
     return &response;
 }
 

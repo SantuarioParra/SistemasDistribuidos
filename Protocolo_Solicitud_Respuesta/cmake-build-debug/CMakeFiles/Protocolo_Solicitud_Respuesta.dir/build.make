@@ -122,13 +122,41 @@ CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Respuesta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Respuesta.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Respuesta.cpp -o CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Respuesta.cpp.s
 
+CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.o: CMakeFiles/Protocolo_Solicitud_Respuesta.dir/flags.make
+CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.o: ../Cliente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.o -c /home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Cliente.cpp
+
+CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Cliente.cpp > CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.i
+
+CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Cliente.cpp -o CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.s
+
+CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.o: CMakeFiles/Protocolo_Solicitud_Respuesta.dir/flags.make
+CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.o: ../Servidor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.o -c /home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Servidor.cpp
+
+CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Servidor.cpp > CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.i
+
+CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/Servidor.cpp -o CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.s
+
 # Object files for target Protocolo_Solicitud_Respuesta
 Protocolo_Solicitud_Respuesta_OBJECTS = \
 "CMakeFiles/Protocolo_Solicitud_Respuesta.dir/main.cpp.o" \
 "CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Solicitud.cpp.o" \
 "CMakeFiles/Protocolo_Solicitud_Respuesta.dir/SocketDatagrama.cpp.o" \
 "CMakeFiles/Protocolo_Solicitud_Respuesta.dir/PaqueteDatagrama.cpp.o" \
-"CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Respuesta.cpp.o"
+"CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Respuesta.cpp.o" \
+"CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.o" \
+"CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.o"
 
 # External object files for target Protocolo_Solicitud_Respuesta
 Protocolo_Solicitud_Respuesta_EXTERNAL_OBJECTS =
@@ -138,9 +166,11 @@ Protocolo_Solicitud_Respuesta: CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Soli
 Protocolo_Solicitud_Respuesta: CMakeFiles/Protocolo_Solicitud_Respuesta.dir/SocketDatagrama.cpp.o
 Protocolo_Solicitud_Respuesta: CMakeFiles/Protocolo_Solicitud_Respuesta.dir/PaqueteDatagrama.cpp.o
 Protocolo_Solicitud_Respuesta: CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Respuesta.cpp.o
+Protocolo_Solicitud_Respuesta: CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Cliente.cpp.o
+Protocolo_Solicitud_Respuesta: CMakeFiles/Protocolo_Solicitud_Respuesta.dir/Servidor.cpp.o
 Protocolo_Solicitud_Respuesta: CMakeFiles/Protocolo_Solicitud_Respuesta.dir/build.make
 Protocolo_Solicitud_Respuesta: CMakeFiles/Protocolo_Solicitud_Respuesta.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Protocolo_Solicitud_Respuesta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/SistemasDistribuidos/Protocolo_Solicitud_Respuesta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Protocolo_Solicitud_Respuesta"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Protocolo_Solicitud_Respuesta.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
