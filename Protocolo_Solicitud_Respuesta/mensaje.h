@@ -14,4 +14,5 @@ struct mensaje {
     int operationId;
     char arguments[TAM_MAX_DATA];
 };
+
 #endif //PROTOCOLO_SOLICITUD_RESPUESTA_MENSAJE_H
