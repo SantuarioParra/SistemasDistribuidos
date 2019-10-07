@@ -10,7 +10,7 @@
 
 class Solicitud{
 public:
-    Solicitud(){};
+    Solicitud();
     char* doOperation(char* IP,int Puerto, int operationId, char* arguments);
 
 private:

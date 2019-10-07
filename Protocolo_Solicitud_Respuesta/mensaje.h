@@ -9,7 +9,7 @@
 #define suma 1
 
 struct mensaje {
-    int menssageType;
+    int messageType;
     unsigned int requestId;
     int operationId;
     char arguments[TAM_MAX_DATA];

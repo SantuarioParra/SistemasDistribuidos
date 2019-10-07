@@ -11,8 +11,8 @@ PaqueteDatagrama::PaqueteDatagrama(char *DATOS, unsigned int LONGITUD, char *IP,
     memcpy(ip,&IP, sizeof(IP));
     memcpy(datos, &DATOS, longitud);
 }
-PaqueteDatagrama::PaqueteDatagrama(unsigned int LONGITUD) {
-    longitud=LONGITUD;
+PaqueteDatagrama::PaqueteDatagrama(unsigned int LONGITUD):longitud(LONGITUD) {
+    datos = new char[longitud];
 }
 
 void PaqueteDatagrama::inicializaIp(char *IP) {
@@ -44,5 +44,5 @@ unsigned int PaqueteDatagrama::obtieneLongitud() {
 }
 
 PaqueteDatagrama::~PaqueteDatagrama() {
-    delete datos, longitud, ip, puerto;
+    delete [] datos;
 }

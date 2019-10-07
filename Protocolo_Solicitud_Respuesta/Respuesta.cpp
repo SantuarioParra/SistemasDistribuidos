@@ -13,15 +13,20 @@ Respuesta::Respuesta(int pl) {
 }
 
 struct mensaje * Respuesta::getRequest() {
-    PaqueteDatagrama paqueteDatagrama (sizeof(response));
-    socketlocal->recibe(paqueteDatagrama);
-    cout<<"Datos recibidos: "<<paqueteDatagrama.obtieneDatos()<<endl;
-    memcpy(&response.arguments, paqueteDatagrama.obtieneDatos(),TAM_MAX_DATA);
+    PaqueteDatagrama rec(sizeof(struct mensaje));
+    socketlocal->recibe(rec);
+    memcpy(&response,rec.obtieneDatos(),TAM_MAX_DATA);
     return &response;
 }
 
 void Respuesta::sendReply(char *respuesta, char *IP, int PUERTO) {//respuesta de la operacion
-    memcpy(response.arguments, respuesta, sizeof(struct mensaje));
-    PaqueteDatagrama paqueteDatagrama((char *) &response, sizeof(struct mensaje), IP, PUERTO);
-    socketlocal->envia(paqueteDatagrama);
+    PaqueteDatagrama env(sizeof(struct mensaje));
+    memcpy(response.arguments,respuesta,TAM_MAX_DATA);
+    response.messageType=1;
+    response.requestId=1;
+    response.operationId=0;
+    env.inicializaPuerto(PUERTO);
+    env.inicializaIp(IP);
+    env.inicializaDatos((char *)&response);
+    socketlocal->envia(env);
 }
