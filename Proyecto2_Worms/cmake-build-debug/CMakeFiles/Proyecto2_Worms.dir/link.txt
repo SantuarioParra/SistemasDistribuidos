@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Proyecto2_Worms.dir/main.cpp.o CMakeFiles/Proyecto2_Worms.dir/Worm.cpp.o CMakeFiles/Proyecto2_Worms.dir/Movimientos.cpp.o ../gfx.o  -o Proyecto2_Worms 

@@ -1,0 +1,10 @@
+servidor: PaqueteDatagrama.o SocketDatagrama.o Respuesta.o servidor.o mensaje.h
+	g++ PaqueteDatagrama.o SocketDatagrama.o Respuesta.o servidor.o -o servidor
+servidor.o: servidor.cpp Respuesta.h SocketDatagrama.h mensaje.h
+	g++ servidor.cpp -c
+Respuesta.o: Respuesta.cpp Respuesta.h mensaje.h SocketDatagrama.h
+	g++ Respuesta.cpp -c
+SocketDatagrama.o: SocketDatagrama.cpp SocketDatagrama.h PaqueteDatagrama.h
+	g++ SocketDatagrama.cpp -c
+PaqueteDatagrama.o: PaqueteDatagrama.cpp PaqueteDatagrama.h
+	g++ PaqueteDatagrama.cpp -c

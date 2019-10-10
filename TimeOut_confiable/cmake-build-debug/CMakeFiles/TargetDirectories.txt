@@ -1,0 +1,3 @@
+/home/fernando/Documentos/SistemasDistribuidos/TimeOut_confiable/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fernando/Documentos/SistemasDistribuidos/TimeOut_confiable/cmake-build-debug/CMakeFiles/TimeOut.dir
+/home/fernando/Documentos/SistemasDistribuidos/TimeOut_confiable/cmake-build-debug/CMakeFiles/edit_cache.dir

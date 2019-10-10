@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="TimeOut" targetName="TimeOut" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="afd4caa3-fd11-4b75-9feb-3dcbe8779c69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/.idea/Proyecto2_Worms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/Movimientos.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/Movimientos.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/Worm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/Worm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/Worms" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Progress/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Progress/2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/gfx.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/Proyecto2_Worms.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/gfx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/gfx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/gfx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto2_Worms/makeWorms" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/TimeOut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1S0zZvORaD8jlijDM81H7yYsZ8C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TimeOut_confiable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TimeOut" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimeOut" TARGET_NAME="TimeOut" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimeOut" RUN_TARGET_NAME="TimeOut">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afd4caa3-fd11-4b75-9feb-3dcbe8779c69" name="Default Changelist" comment="" />
+      <created>1570715359879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570715359879</updated>
+      <workItem from="1570715361945" duration="2650000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

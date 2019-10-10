@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TimeOut.dir/cliente.cpp.o CMakeFiles/TimeOut.dir/servidor.cpp.o CMakeFiles/TimeOut.dir/PaqueteDatagrama.cpp.o CMakeFiles/TimeOut.dir/SocketDatagrama.cpp.o CMakeFiles/TimeOut.dir/Respuesta.cpp.o CMakeFiles/TimeOut.dir/Solicitud.cpp.o  -o TimeOut 
