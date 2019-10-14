@@ -1,5 +1,7 @@
-Worms: animacion.o gfx.o Worm.cpp
-	g++ gfx.o main.o Worm.cpp -o Worms -lX11
+Worms: animacion.o Movimientos.o gfx.o Worm.cpp
+	g++ Movimientos.o gfx.o main.o Worm.cpp -o Worms -lX11
+Movimientos.o : Movimientos.cpp Movimientos.h
+	g++ Movimientos.cpp -c
 animacion.o : main.cpp
 	g++ main.cpp -c
 gfx.o: gfx.c

@@ -15,7 +15,7 @@ public:
     Worm(int tam);
     void setTamanio(int tam);
     int getTamanio();
-    void printWorms(int y);
+    void printWorms();
 private:
 int longitud;
 };

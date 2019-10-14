@@ -10,12 +10,14 @@ int main() {
     int t;
     gfx_open(600, 600, "Ejemplo Micro Animacion GFX");
     gfx_color(0, 255, 0);
-    Worm worm;
+    Worm worm,worms;
 
     for (t = 0; t < 1000; t++) {
-
-        worm.setTamanio(20);
-        worm.printWorms(t);
+    gfx_clear();
+        worm.setTamanio(1);
+        worm.printWorms();
+        worms.setTamanio(2);
+        worms.printWorms();
 
         //gfx_line( (t*1-80), (t*2+40), (t*2+40), (t*3-80) );
         /*gfx_point(10, 0);
@@ -26,7 +28,7 @@ int main() {
         //gfx_line(t*5+80, sin((t*3+40)%600), t*3+40, sin((t*5+80)%600));
 
         gfx_flush();
-        usleep(41666/2); //24 fotogramas por segundo
+        usleep(41666); //24 fotogramas por segundo
     }
     return 0;
 }

@@ -21,19 +21,25 @@ int main(int argc, char const *argv[]) {
 
     Solicitud solicitud;
     int res;
-    int n, i=0;
+    int n, i = 0;
     int total = 0;
 
-    n= atoi(argv[2]);
+    n = atoi(argv[2]);
     while (i < n) {
-        argumentos[0] = 1+rand()%10;
+        argumentos[0] = 1 + rand() % 10;
         total += argumentos[0];
         memcpy(&res, solicitud.doOperation((char *) argv[1], puerto, SUMA, (char *) &argumentos), 4);
-       cout <<"Estado de cuenta actual: "<< "="<< res << endl;
-
+        cout << "Estado de cuenta actual: " << res << endl;
+        cout << "Estado de cuenta real: " << total << endl;
+        if (total != res) {
+            cout << "El saldo no corresponde al valor real" << endl;
+            cout << "Estado de cuenta actual: " << res << endl;
+            cout << "Estado de cuenta real: " << total << endl;
+            exit(2);
+        }
         i++;
     }
-    cout<<"Valor real de depositos:" <<total<<endl;
+    cout << "Valor real de depositos:" << total << endl;
 
     return 0;
 }
