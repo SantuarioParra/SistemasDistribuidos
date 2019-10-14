@@ -12,6 +12,7 @@ public:
 private:
   SocketDatagrama *socketlocal;
   PaqueteDatagrama *entrada;
+  unsigned int id=0;
 };
 
 #endif

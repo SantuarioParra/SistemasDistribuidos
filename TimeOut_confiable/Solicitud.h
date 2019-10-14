@@ -4,6 +4,8 @@
 #ifndef SOLICITUD_H_
 #define SOLICITUD_H_
 
+#include <iostream>
+using namespace std;
 class Solicitud {
 public:
   Solicitud();
@@ -13,6 +15,7 @@ private:
   PaqueteDatagrama *paqueteenvia;
   PaqueteDatagrama *paqueterecibe;
   struct mensaje men;
+  unsigned int id=0;
 };
 
 #endif

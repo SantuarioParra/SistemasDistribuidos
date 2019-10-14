@@ -1,6 +1,6 @@
 #include "SocketDatagrama.h"
 #include <iostream>
-
+#include "mensaje.h"
 using namespace std;
 
 SocketDatagrama::SocketDatagrama(int p) {

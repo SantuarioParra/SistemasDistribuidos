@@ -12,9 +12,6 @@ int main(int argc, char const *argv[]) {
     }
 
     int argumentos[3];
-    //argumentos = (int *) malloc(2 * sizeof(int));
-    //argumentos[0] = atoi(argv[2]);
-    //argumentos[1] = atoi(argv[3]);
 
     argumentos[0] = 5;
     argumentos[1] = 5;

@@ -5,6 +5,7 @@
 //Definicion de identificadores para operaciones permitidas
 #define SUMA 1
 // efinicion del formato de mensaje
+
 struct mensaje {
   int messageType; //0= Solicitud, 1 = Respuesta
   unsigned int requestId; //Identificador del mensaje
