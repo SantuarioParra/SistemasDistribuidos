@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/fernando/Documentos/SistemasDistribuidos/Proyecto2_Worms/Coordenada.cpp" "/home/fernando/Documentos/SistemasDistribuidos/Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/Coordenada.cpp.o"
   "/home/fernando/Documentos/SistemasDistribuidos/Proyecto2_Worms/Movimientos.cpp" "/home/fernando/Documentos/SistemasDistribuidos/Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/Movimientos.cpp.o"
   "/home/fernando/Documentos/SistemasDistribuidos/Proyecto2_Worms/Worm.cpp" "/home/fernando/Documentos/SistemasDistribuidos/Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/Worm.cpp.o"
   "/home/fernando/Documentos/SistemasDistribuidos/Proyecto2_Worms/main.cpp" "/home/fernando/Documentos/SistemasDistribuidos/Proyecto2_Worms/cmake-build-debug/CMakeFiles/Proyecto2_Worms.dir/main.cpp.o"

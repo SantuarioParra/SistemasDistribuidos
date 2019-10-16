@@ -123,6 +123,33 @@ Proyecto2_Worms/fast:
 	$(MAKE) -f CMakeFiles/Proyecto2_Worms.dir/build.make CMakeFiles/Proyecto2_Worms.dir/build
 .PHONY : Proyecto2_Worms/fast
 
+Coordenada.o: Coordenada.cpp.o
+
+.PHONY : Coordenada.o
+
+# target to build an object file
+Coordenada.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2_Worms.dir/build.make CMakeFiles/Proyecto2_Worms.dir/Coordenada.cpp.o
+.PHONY : Coordenada.cpp.o
+
+Coordenada.i: Coordenada.cpp.i
+
+.PHONY : Coordenada.i
+
+# target to preprocess a source file
+Coordenada.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2_Worms.dir/build.make CMakeFiles/Proyecto2_Worms.dir/Coordenada.cpp.i
+.PHONY : Coordenada.cpp.i
+
+Coordenada.s: Coordenada.cpp.s
+
+.PHONY : Coordenada.s
+
+# target to generate assembly for a file
+Coordenada.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2_Worms.dir/build.make CMakeFiles/Proyecto2_Worms.dir/Coordenada.cpp.s
+.PHONY : Coordenada.cpp.s
+
 Movimientos.o: Movimientos.cpp.o
 
 .PHONY : Movimientos.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Proyecto2_Worms"
 	@echo "... edit_cache"
+	@echo "... Coordenada.o"
+	@echo "... Coordenada.i"
+	@echo "... Coordenada.s"
 	@echo "... Movimientos.o"
 	@echo "... Movimientos.i"
 	@echo "... Movimientos.s"

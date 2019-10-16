@@ -9,46 +9,49 @@
 //
 // Created by fernando on 07/10/19.
 //
-Worm::Worm(int tam) {
+Worm::Worm(int cantidad) {
     longitud = tam;
-}
-
-void Worm::setTamanio(int tam) {
-    longitud = tam;
-}
-
-int Worm::getTamanio() {
-    return longitud;
 }
 
 void Worm::printWorms() {
-    srand(time(NULL));
-    pair<int, int> coord;
-    Movimientos movimientos(10, 20);
-    movimientos.circular();
-    int xa = 0, ya = 0;
-    for (int i = 0; i < 15; ++i) {
-        xa = 10 + (rand() % 500);
-        ya = 10 + (rand() % 500);
-        /*cout << "worm:" << longitud << "-" << x << "," << y << "Tamaño de pi: " << 2 * PI << endl;*/
-        vector<pair<int, int>> mv = movimientos.getMovimientos();
-        for (auto &coord:mv) {
-            gfx_point((coord.first + xa) % 600, (coord.second + ya + 1) % 600);
-            gfx_point((coord.first + xa + 1) % 600, (coord.second + ya + 1) % 600);
-            gfx_point((coord.first + xa) % 600, (coord.second + ya) % 600);
-            gfx_point((coord.first + xa + 1) % 600, (coord.second + ya) % 600);
-            gfx_flush();
-            usleep(41666 / 4);
+    int i = 0, selector = 0;
+    Coordenada coord;
+    Movimientos movimientos;
+    vector<Coordenada> cordenadas;
+    for (int j = 0; j < 666 ; ++j) {
+        selector = rand()%3;
+        switch(selector) {
+            case 0 :
+                movimientos.recto();
+                break;
+            case 1 :
+                movimientos.circular();
+                break;
+            case 2 :
+                movimientos.ondular();
+                break;
         }
     }
-
-
-
-    /*gfx_point(10,10);gfx_point(11,10);
-    gfx_point(10,11);gfx_point(11,11);*/
-
-
-
+    cordenadas = movimientos.getMovimientos();
+    while (!cordenadas.empty()) {
+        coord = cordenadas.at(i);
+        gfx_color(0, 255, 0);
+        gfx_point(abs(coord.getX()) % 600, abs(coord.getY() + 1) % 600);
+        gfx_point(abs(coord.getX() + 1) % 600, abs(coord.getY() + 1) % 600);
+        gfx_point(abs(coord.getX()) % 600, abs(coord.getY()) % 600);
+        gfx_point(abs(coord.getX() + 1) % 600, abs(coord.getY()) % 600);
+        if (i >= 15) {
+            coord = cordenadas.at(i - 15);
+            gfx_color(0, 0, 0);
+            gfx_point(abs(coord.getX()) % 600, abs(coord.getY() + 1) % 600);
+            gfx_point(abs(coord.getX() + 1) % 600, abs(coord.getY() + 1) % 600);
+            gfx_point(abs(coord.getX()) % 600, abs(coord.getY()) % 600);
+            gfx_point(abs(coord.getX() + 1) % 600, abs(coord.getY()) % 600);
+        }
+        gfx_flush();
+        usleep(41666/2); //24 fotogramas por segundo
+        i++;
+    }
 }
 
 

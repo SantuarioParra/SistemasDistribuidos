@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto2_Worms.dir/main.cpp.o"
   "CMakeFiles/Proyecto2_Worms.dir/Worm.cpp.o"
   "CMakeFiles/Proyecto2_Worms.dir/Movimientos.cpp.o"
+  "CMakeFiles/Proyecto2_Worms.dir/Coordenada.cpp.o"
   "Proyecto2_Worms.pdb"
   "Proyecto2_Worms"
 )

@@ -13,18 +13,19 @@
 #include <unistd.h>
 #include <cmath>
 #include "gfx.h"
+#include "Coordenada.h"
 using namespace std;
+const double PI  = 3.14159265359;
 class Movimientos{
 public:
+    Movimientos();
     Movimientos(int x, int y);
     void recto();
     void circular();
     void ondular();
-    int getX();
-    int getY();
-    vector<pair<int,int>> getMovimientos();
+    vector<Coordenada> getMovimientos();
 private:
-    int X,Y;
-    vector<pair<int,int>> movimientos;
+    vector<Coordenada> movimientos;
+    Coordenada coordenada;
 };
 #endif //PROYECTO2_WORMS_MOVIMIENTOS_H

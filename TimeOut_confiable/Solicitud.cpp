@@ -10,7 +10,7 @@ Solicitud::Solicitud() {
 char *Solicitud::doOperation(char *IP, int puerto, int operationId, char *arguments) {
     men.messageType = 0;
     men.operationId = operationId;
-    men.requestId = 10;
+    men.requestId = id;
     memcpy(&men.arguments, arguments, TAM_MAX_DATA);
     paqueteenvia = new PaqueteDatagrama((char *) &men, sizeof(struct mensaje), IP, puerto);
     socketlocal->envia(*paqueteenvia);
