@@ -13,6 +13,7 @@ private:
   SocketDatagrama *socketlocal;
   PaqueteDatagrama *entrada;
   unsigned int id=0;
+    struct mensaje men;
 };
 
 #endif

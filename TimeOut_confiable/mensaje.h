@@ -7,8 +7,8 @@
 // efinicion del formato de mensaje
 
 struct mensaje {
-  int messageType; //0= Solicitud, 1 = Respuesta
-  unsigned int requestId; //Identificador del mensaje
+  int messageType; //0= Solicitud, 1 = Respuesta , -1=repetido
+  unsigned int requestId=0; //Identificador del mensaje
   int operationId; //Identificador de la operación
   char arguments[TAM_MAX_DATA];
 };

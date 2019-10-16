@@ -10,7 +10,7 @@
 // Created by fernando on 07/10/19.
 //
 Worm::Worm(int cantidad) {
-    longitud = tam;
+    longitud = cantidad;
 }
 
 void Worm::printWorms() {

@@ -12,9 +12,7 @@ using namespace std;
 class Worm{
 public:
     Worm()= default;
-    Worm(int tam);
-    void setTamanio(int tam);
-    int getTamanio();
+    Worm(int cantidad);
     void printWorms();
 private:
 int longitud;

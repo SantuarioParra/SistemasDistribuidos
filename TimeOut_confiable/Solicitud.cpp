@@ -4,13 +4,13 @@
 
 Solicitud::Solicitud() {
     socketlocal = new SocketDatagrama(0);
-    id = 0;
 }
 
 char *Solicitud::doOperation(char *IP, int puerto, int operationId, char *arguments) {
     men.messageType = 0;
     men.operationId = operationId;
     men.requestId = id;
+    cout<<"Id Enviado: "<<id<<endl;
     memcpy(&men.arguments, arguments, TAM_MAX_DATA);
     paqueteenvia = new PaqueteDatagrama((char *) &men, sizeof(struct mensaje), IP, puerto);
     socketlocal->envia(*paqueteenvia);
@@ -29,5 +29,6 @@ char *Solicitud::doOperation(char *IP, int puerto, int operationId, char *argume
         socketlocal->envia(*paqueteenvia);
     }
     memcpy(&men, paqueterecibe->obtieneDatos(), sizeof(struct mensaje));
+    id++;
     return men.arguments;
 }

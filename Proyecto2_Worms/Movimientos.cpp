@@ -45,7 +45,6 @@ void Movimientos::circular() {
 
 void Movimientos::ondular() {
     cout << "Coordenadas inicial ondular: " << coordenada.getX() << "," << coordenada.getY() << endl;
-    double A = 5+ rand() % 20;
     int Y = coordenada.getY(), X = coordenada.getX();
     for (double t =0 ; t <50; t++) {
         coordenada.setY(Y+sin((X+t)/2)*5);

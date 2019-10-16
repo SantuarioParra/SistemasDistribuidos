@@ -14,11 +14,17 @@ struct mensaje *Respuesta::getRequest() {
     socketlocal->recibe(*entrada);
     struct mensaje *res = (struct mensaje *) malloc(sizeof(struct mensaje));
     memcpy(res, entrada->obtieneDatos(), sizeof(struct mensaje));
+    if(res->requestId!=id){
+        res->messageType=-1;
+        cout<<"RequestId recibido: "<<res->requestId<<","<<id<<endl;
+    } else{
+        id++;
+        cout<<"Nuevo id : "<<id<<endl;
+    }
     return res;
 }
 
 void Respuesta::sendReply(char *respuesta) {
-    struct mensaje men;
     men.messageType = 1;
     memcpy(men.arguments, respuesta, 4);
     PaqueteDatagrama salida((char *) &men,

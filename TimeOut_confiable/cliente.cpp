@@ -17,7 +17,7 @@ int main(int argc, char const *argv[]) {
     argumentos[1] = 5;
 
     Solicitud solicitud;
-    int res;
+    int res,ndb=0;;
     int n, i = 0;
     int total = 0;
 
@@ -28,9 +28,15 @@ int main(int argc, char const *argv[]) {
         memcpy(&res, solicitud.doOperation((char *) argv[1], puerto, SUMA, (char *) &argumentos), 4);
         cout << "Estado de cuenta actual: " << res << endl;
         cout << "Estado de cuenta real: " << total << endl;
-        if (total != res) {
+        if (res==-1){
+            total=-argumentos[0];
+            cout<<"Total despues de un res-1 "<<total<<endl;
+        }else{
+            ndb=res;
+        }
+        if (total != ndb) {
             cout << "El saldo no corresponde al valor real" << endl;
-            cout << "Estado de cuenta actual: " << res << endl;
+            cout << "Estado de cuenta actual: " << ndb << endl;
             cout << "Estado de cuenta real: " << total << endl;
             exit(2);
         }
