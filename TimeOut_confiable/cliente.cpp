@@ -26,13 +26,13 @@ int main(int argc, char const *argv[]) {
         argumentos[0] = 1 + rand() % 10;
         total += argumentos[0];
         memcpy(&res, solicitud.doOperation((char *) argv[1], puerto, SUMA, (char *) &argumentos), 4);
-        cout << "Estado de cuenta actual: " << res << endl;
         cout << "Estado de cuenta real: " << total << endl;
         if (res==-1){
             total=-argumentos[0];
             cout<<"Total despues de un res-1 "<<total<<endl;
         }else{
             ndb=res;
+            cout << "Estado de cuenta actual: " << ndb << endl;
         }
         if (total != ndb) {
             cout << "El saldo no corresponde al valor real" << endl;
