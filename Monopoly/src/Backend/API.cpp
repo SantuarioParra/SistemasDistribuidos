@@ -1,66 +1,106 @@
-struct Coordinates{
-	int x;
-	int y;
-};
+#include "API.h"
 
-class Bank {
+Player::Player(){
+	moneyAmount = 2500;
+	location = 0;
+	for(int i = 0; i < 40; i++){
+		indexOfProperties[i] = false;
+	}
+	alive = true;
 
-  private:
-    int moneyAmount;
+	playerName = "John";
+	gamePieceName = "soccer.png";
+	pixelLocation.x = 594;
+	pixelLocation.y = 590;
+}
 
-	public:
-    //constructors
-    Bank();
+Player::Player(int money){
+	moneyAmount = money;
+	location = 0;
+	for(int i = 0; i < 40; i++){
+		indexOfProperties[i] = false;
+	}
+	alive = true;
 
-    //functions to get values
-    int getAmount();
+	playerName = "John";
+}
 
-    //other functions
-    void give_money(int amount);
-    void take_money(int amount);
-};
+void Player::setPixelLocation(Coordinates tempLocation){
+	pixelLocation = tempLocation;
+}
 
-class Player {
+Coordinates Player::getPixelLocation(){
+	return pixelLocation;
+}
 
-	private:
-	    string playerName;
-	    char gamePiece;
-	    int moneyAmount;
-	    int location;
-	    bool indexOfProperties[40];
-	    bool alive;
-	    string gamePieceName;
-	    Coordinates pixelLocation;
+void Player::setPlayerName(string inputName){
+	playerName = inputName;
+}
 
+void Player::setGamePiece(char inputPiece){
+	gamePiece = inputPiece;
+}
 
-	public:
-	    //constructors
-	    Player();
-	    Player(int money);
+void Player::setGamePieceName(string inputPieceName){
+	gamePieceName = inputPieceName;
+}
 
-	    //functions to set values
-	    void setPlayerName(string inputName);
-	    void setGamePiece(char inputPiece);
-	    void setOwnedProperty(int inputIndex, bool isOwned);
-	    void setLocation(int spaceNum);
-	    void setGamePieceName(string inputPieceName);
-	    void setPixelLocation(Coordinates tempLocation);
-	    void setMoneyAmount(int inputNum);
+void Player::setLocation(int spaceNum){
+	location = spaceNum;
 
-	    //functions to get values
-	    string getPlayerName();
-	    char getGamePiece();
-	    int getMoneyAmount();
-	    bool getOwnedProperty(int inputIndex);
-	    int getLocation();
-	    bool isAlive();
-	    string getGamePieceName();
-	    Coordinates getPixelLocation();
+}
 
-	    //other functions
-	    void give_money(int amount);
-	    void take_money(int amount);
-	    void move_player(int amount);
-	    void reset();
+string Player::getPlayerName(){
+	return playerName;
+}
 
-};
+char Player::getGamePiece(){
+	return gamePiece;
+}
+
+void Player::give_money(int amount){
+	moneyAmount = moneyAmount + amount;
+}
+
+int Player::getMoneyAmount(){
+	return moneyAmount;
+}
+
+void Player::take_money(int amount){
+	moneyAmount = moneyAmount - amount;
+}
+
+void Player::move_player(int amount){
+	location = (location + amount) % 40;
+}
+
+int Player::getLocation(){
+	return location;
+}
+
+string Player::getGamePieceName(){
+	return gamePieceName;
+}
+
+void Player::setOwnedProperty(int inputIndex, bool isOwned){
+	indexOfProperties[inputIndex] = isOwned;
+}
+
+bool Player::getOwnedProperty(int inputIndex){
+	return indexOfProperties[inputIndex];
+}
+
+bool Player::isAlive(){
+	return alive;
+}
+
+void Player::reset(){
+	moneyAmount = 0;
+	location = 0;
+	gamePiece = ' ';
+	alive = false;
+}
+
+void Player::setMoneyAmount(int inputNum){
+	moneyAmount = inputNum;
+}
