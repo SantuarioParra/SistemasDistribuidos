@@ -5,6 +5,7 @@ class jugador {
     this.casilla = 0
     this.vida = 1
     this.propiedades = new Array(40)
+    this.repeticionesTurno = 0
   }
   //setters
   setPlayerName(inputName){
@@ -15,7 +16,7 @@ class jugador {
     var pieza = window.piezas.find(indx)
     //validar que la pieza no está ocupada
     if (true) {
-
+      console.log("condicion de validar no ocupada");
     }
   }
   setOwnedProperty(inputIndex){
@@ -25,4 +26,9 @@ class jugador {
   setGamePieceName(inputPieceName){}
   setPixelLocation(tempLocation){}
   setMoneyAmount(int inputNum){}
+
+  //metodos
+  mover(movidas){
+    this.casilla = (this.casilla + movidas) % 40
+  }
 }
