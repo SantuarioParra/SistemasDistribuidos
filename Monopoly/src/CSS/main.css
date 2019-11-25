@@ -1,0 +1,20 @@
+.boton_side{
+  background: rgba(38, 40, 42, .0);
+  border: none;
+  background-repeat: no-repeat;
+  /*border: none;           /* assuming we don't want any borders */
+  display: none;
+  /*cursor: pointer;        /* make the cursor like hovering over an <a> element */
+  /*height: 32px;           /* make this the size of your image */
+  /*padding-left: 32px;     /* make text start to the right of the image */
+  /*vertical-align: middle; /* align the text vertically centered */
+}
+
+.sidebar{
+  /*background: rgba(255, 255, 255, .75);*/
+  top: 0px;
+  left: 200px;
+  right: 0;
+  bottom: 0px;
+  background:transparent;
+}

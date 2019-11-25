@@ -1,8 +1,27 @@
+//Funciones del ocmportamiento de la plataforma
+
+//sidebar
+function abrir() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function cerrar() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+//Funciones del Monopoly
+
 function turno_Jugador(jugador){
-  //tirar dados
+  //mover
   var d = rollDices()
   jugador.mover(d)
-  
+
+  //decidir
+  console.log("chekpoint!");
+  if (true) {
+
+  }
 
 
 
@@ -17,7 +36,7 @@ function iniciarJuego(/*jugadores*/){
   var j = []
 
   for (var i = 0; i < jugadores; i++) {
-    var burglar = jugador()
+    var burglar = new Jugador()
     j.push(jugador)
   }
 

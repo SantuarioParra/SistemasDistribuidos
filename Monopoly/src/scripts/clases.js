@@ -1,4 +1,4 @@
-class jugador {
+class Jugador {
   constructor() {
     this.dinero = 2500
     this.nombre = "CharlesXavier"
@@ -16,7 +16,7 @@ class jugador {
     var pieza = window.piezas.find(indx)
     //validar que la pieza no está ocupada
     if (true) {
-      console.log("condicion de validar no ocupada");
+      console.log("condicion de validar no ocupada")
     }
   }
   setOwnedProperty(inputIndex){
@@ -25,7 +25,7 @@ class jugador {
   setLocation(int spaceNum){}
   setGamePieceName(inputPieceName){}
   setPixelLocation(tempLocation){}
-  setMoneyAmount(int inputNum){}
+  setMoneyAmount(inputNum){}
 
   //metodos
   mover(movidas){
